@@ -1,0 +1,133 @@
+# profile.yml — Your Career Identity
+# This is YOUR profile — never auto-updated. Customize freely.
+
+candidate:
+  name: Gaurav Khungar
+  email: your-email@example.com
+  phone: "+91-your-phone"
+  location:
+    city: "India"
+    timezone: "IST"
+    country: "IN"
+  linkedin: "https://linkedin.com/in/gauravkhungar"
+  github: "https://github.com/gauravkhungar"
+  portfolio: "https://gauravkhungar.dev"  # Optional
+
+target_roles:
+  primary:
+    - name: "Senior QA Engineer / Test Architect"
+      level: "Senior"
+      fit: "primary"  # primary, secondary, or adjacent
+      description: "Design testing strategies, lead QA teams, build automation frameworks"
+      keywords: ["QA", "Test Automation", "Testing Strategy", "QA Lead", "Test Architect"]
+
+  secondary:
+    - name: "QA Manager / Engineering Lead"
+      level: "Senior"
+      fit: "secondary"
+      description: "Lead QA teams, establish quality culture, mentor engineers"
+      keywords: ["QA Manager", "QA Lead", "Engineering Manager", "Test Lead"]
+
+narrative:
+  headline: "Senior QA Engineer — Test Automation Architect & Quality Strategy Leader"
+
+  superpowers:
+    - "Building scalable test automation frameworks that reduce testing time by 40%+"
+    - "Designing CI/CD pipelines that catch bugs before production (99.5% pre-release detection)"
+    - "Mentoring QA teams and establishing quality culture across organizations"
+    - "Translating complex testing requirements into maintainable, modular automation code"
+    - "Architecting testing strategies for high-velocity, microservices-based teams"
+
+  proof_points:
+    - "Reduced test suite execution time from 6+ hours to 45 minutes through intelligent automation (45% improvement)"
+    - "Mentored team of 5 QA engineers; 3 promoted to senior roles"
+    - "Implemented CI/CD testing gates in GitHub Actions/Jenkins, catching 30+ critical bugs pre-production"
+    - "Designed API testing strategy covering 200+ endpoints with 95%+ test coverage"
+    - "Built in-house test automation framework used by 10+ engineers across 3 teams"
+
+compensation:
+  target_range:
+    min: "₹25,00,000"  # ₹25L
+    max: "₹30,00,000"  # ₹30L
+    currency: "INR"
+    annual: true
+
+  negotiation_notes:
+    - "Minimum acceptable: ₹25L; target: ₹28L"
+    - "Equity considerations if startup (Series C+)"
+    - "Open to stock options + cash mix"
+    - "Performance bonus transparency important"
+
+location:
+  preference: "remote-first"  # remote-first, india-based, open-to-relocation, hybrid
+  countries_interested:
+    - "IN"  # India
+    - "US"
+    - "AU"
+  on_site_comfort: "0 days/week"
+  visa_status: "India-based; open to visa sponsorship if required"
+
+preferences:
+  company_stage:
+    preferred: ["scale-up"]  # startup, scale-up, enterprise
+    stage_definition: "100-5,000 people, Series C-F funding"
+
+  industries_preferred:
+    - "SaaS & Cloud"
+    - "AI/ML & Data"
+    - "Developer Tools"
+    - "FinTech (excluding crypto gambling)"
+    - "Healthcare Tech"
+
+  industries_avoid:
+    - []  # Leave empty if open to all
+
+  company_culture:
+    important:
+      - "Learning & growth"
+      - "Remote-friendly"
+      - "Transparent communication"
+      - "Quality-focused engineering"
+      - "Diverse, inclusive teams"
+
+  technical_preferences:
+    stack: "Modern (Python, JavaScript, Go); cloud-native (AWS/GCP/Azure)"
+    ci_cd: "GitHub Actions, GitLab CI, or Jenkins"
+    databases: "PostgreSQL, MongoDB preferred"
+
+  non_negotiables:
+    - "Remote capability (fully remote or hybrid with flexibility)"
+    - "Opportunity to design/influence testing strategy"
+    - "Modern tech stack (not legacy systems)"
+    - "Supportive, growth-oriented team"
+
+exit_criteria:
+  reasons_to_leave_last_role:
+    - "Lack of growth opportunities in QA role"
+    - "Legacy systems with limited automation potential"
+    - "Misalignment on quality standards"
+
+  what_you_learned:
+    - "How to architect scalable test frameworks"
+    - "Team leadership and mentoring skills"
+    - "Strategic thinking about testing in microservices"
+
+interview:
+  preparation_notes: |
+    - Lead with 3-5 STAR stories demonstrating testing impact
+    - Showcase framework design & architecture thinking
+    - Be ready to discuss testing strategy for modern applications
+    - Highlight mentoring & team-building experience
+    - Ask about: company's testing maturity, CI/CD process, QA influence on product decisions
+
+  red_flags_to_watch:
+    - "No dedicated QA team"
+    - "Testing is afterthought, not strategy"
+    - "Outdated tech stack with no modernization plans"
+    - "Poor work-life balance indicators"
+
+  strengths_to_emphasize:
+    - "Framework design & architecture"
+    - "Mentoring & team growth"
+    - "Strategic thinking about testing"
+    - "Cross-functional collaboration"

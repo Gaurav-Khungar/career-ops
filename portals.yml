@@ -1,0 +1,223 @@
+# portals.yml — Job Portal & Company Configuration
+# Customize this file to define which companies to scan, what titles interest you,
+# and which job boards to search.
+
+title_filter:
+  # Positive keywords: At least ONE must appear in job title (case-insensitive)
+  positive:
+    - QA
+    - "Quality Assurance"
+    - "Test"
+    - "Automation Engineer"
+    - "QA Engineer"
+    - "Test Automation"
+    - "SDET"
+    - "Test Architecture"
+    - "QA Lead"
+    - "Test Lead"
+    - "QA Manager"
+    - "Test Manager"
+
+  # Negative keywords: NONE should appear in job title
+  negative:
+    - "Junior"
+    - "Fresher"
+    - "Internship"
+    - ".NET"
+    - "Java Developer"
+    - "DevOps"  # Unless it's "QA + DevOps"
+    - "Manual"
+
+  # Seniority boost keywords: Give priority to these (but not required)
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Architect"
+    - "Lead"
+    - "Manager"
+
+---
+
+tracked_companies:
+  # High-priority tech companies known for strong QA practices
+  # Format:
+  #   company_key:
+  #     name: "Company Name"
+  #     careers_url: "https://company.com/careers"  # For Playwright navigation
+  #     api: "https://..."  # Optional: Greenhouse/Ashby/Lever API endpoint
+  #     api_provider: "greenhouse|ashby|lever|workday|bamboohr"  # Optional: helps with parsing
+
+  # Tier 1: Unicorns & Tech Giants
+  anthropic:
+    name: "Anthropic"
+    careers_url: "https://www.anthropic.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  stripe:
+    name: "Stripe"
+    careers_url: "https://stripe.com/jobs"
+    api: "https://boards-api.greenhouse.io/v1/boards/stripe/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  databricks:
+    name: "Databricks"
+    careers_url: "https://www.databricks.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/databricks/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  figma:
+    name: "Figma"
+    careers_url: "https://www.figma.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/figma/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  canva:
+    name: "Canva"
+    careers_url: "https://www.canva.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/canva/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  # Tier 2: Scale-ups & Growth Companies
+  notion:
+    name: "Notion"
+    careers_url: "https://notion.so/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/notion/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  airtable:
+    name: "Airtable"
+    careers_url: "https://airtable.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/airtable/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  retool:
+    name: "Retool"
+    careers_url: "https://retool.com/careers"
+    api: "https://api.example.com"  # Update with actual API
+    api_provider: "greenhouse"
+    enabled: true
+
+  zapier:
+    name: "Zapier"
+    careers_url: "https://zapier.com/jobs"
+    api: "https://boards-api.greenhouse.io/v1/boards/zapier/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  vercel:
+    name: "Vercel"
+    careers_url: "https://vercel.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/vercel/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  # Tier 3: Developer Tools & Infrastructure
+  supabase:
+    name: "Supabase"
+    careers_url: "https://supabase.com/careers"
+    enabled: true
+
+  plane:
+    name: "Plane"
+    careers_url: "https://plane.so/careers"
+    enabled: true
+
+  templ:
+    name: "Templ.io"
+    careers_url: "https://templ.io/careers"
+    enabled: true
+
+  # Tier 4: India-based / APAC Companies (if interested in local opportunities)
+  easypost:
+    name: "EasyPost"
+    careers_url: "https://www.easypost.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/easypost/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  razorpay:
+    name: "Razorpay"
+    careers_url: "https://razorpay.com/careers"
+    enabled: true
+
+  freshworks:
+    name: "Freshworks"
+    careers_url: "https://www.freshworks.com/careers"
+    api: "https://boards-api.greenhouse.io/v1/boards/freshworks/jobs"
+    api_provider: "greenhouse"
+    enabled: true
+
+  bytebeam:
+    name: "ByteBeam"
+    careers_url: "https://www.bytebeam.io/careers"
+    enabled: true
+
+---
+
+# Search Queries for Broad Job Board Discovery
+# Use these to find jobs you may not have tracked companies for yet
+search_queries:
+  query_1:
+    query: "QA Engineer remote scale-up site:ashby.com OR site:lever.co OR site:greenhouse.io"
+    enabled: true
+    source: "job_boards"
+
+  query_2:
+    query: "Test Automation Engineer remote India OR remote-first site:linkedin.com"
+    enabled: true
+    source: "linkedin"
+
+  query_3:
+    query: "Senior QA site:we-are-hiring.com OR site:builtin.com"
+    enabled: true
+    source: "job_boards"
+
+  query_4:
+    query: "QA Lead OR Test Architect remote-first scale-up site:lunchlist.com OR site:hackernews.com"
+    enabled: true
+    source: "community"
+
+  query_5:
+    query: "Testing strategy senior engineer remote OR India site:ashby.com OR site:greenhouse.io"
+    enabled: true
+    source: "job_boards"
+
+---
+
+# Scanner Configuration
+scanner:
+  # Number of parallel companies to scan (use 3-5 to avoid rate limiting)
+  parallel_batch_size: 3
+
+  # Verify URLs from WebSearch (Level 3) by checking if they're still active
+  verify_urls_from_websearch: true
+
+  # Store full job descriptions in jds/ directory
+  save_jds: true
+
+  # Update scan history with every scan (creates audit trail)
+  track_scans: true
+
+  # Dedup against multiple sources
+  dedup_sources:
+    - scan_history
+    - applications_tracker
+    - pipeline
+
+---
+
+# Notes
+# - Edit `title_filter.positive` to match YOUR target roles
+# - Add/remove companies in `tracked_companies` as needed
+# - Update `search_queries` to search the job boards YOU use
+# - Negative keywords help filter out irrelevant results
+# - `seniority_boost` keywords improve ranking but aren't required
