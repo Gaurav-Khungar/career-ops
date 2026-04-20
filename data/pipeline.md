@@ -37,3 +37,10 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 - [x] 001 | https://jobs.ashby.com/company/123 | Anthropic | Senior QA Engineer | 4.5/5 | PDF ✅ | Strong match on testing strategy role
 - [!] https://example.com/secure/job | Company Inc | Test Architect | Error: Login required
 ```
+
+## Pendientes
+
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5843010004 | Vercel | Anti-Abuse Automation Engineer
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8459908002 | Databricks | Network Automation Engineer 
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8463169002 | Databricks | Sr. IT Systems/Automation Engineer
+
