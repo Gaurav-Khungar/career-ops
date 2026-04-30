@@ -4,6 +4,8 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 1 | 2026-04-30 | ClickHouse | QA Engineer - Core Database | 4.3/5 | Evaluated | ❌ | [001](reports/001-clickhouse-2026-04-30.md) | Globally remote, $141K-$230K comp, strong CV match on Python/Playwright/CI-CD |
+| 2 | 2026-04-30 | HighLevel | Lead SDET - AI | 4.0/5 | Evaluated | ❌ | [002](reports/002-highlevel-2026-04-30.md) | Lead + mentor fit, remote; comp undisclosed — negotiate min ₹28L upfront |
 |   |         |      |              |       |        |        |       |
 
 ## Status Reference
