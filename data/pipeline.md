@@ -5,6 +5,15 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 ## Pending
 - [ ] [Add URLs here]
 
+<!-- Scan 2026-05-03 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) -->
+- [x] https://jobs.lever.co/Clearer/21e0a71d-09a1-4f76-aafc-1739f17bba53 | Clearer.io | Senior QA Automation Engineer
+- [x] https://jobs.lever.co/canarytechnologies/91a97aeb-357a-4ab8-9f98-997850b67d04 | Canary Technologies | Senior QA Engineer (Remote)
+- [x] https://job-boards.greenhouse.io/atriumcampus/jobs/4236188009 | Atrium Campus | Senior QA Automation & AI Testing Engineer
+- [x] https://job-boards.greenhouse.io/externaljobboards/jobs/5978704004 | Exadel | Senior Automation QA - Playwright
+- [x] https://job-boards.greenhouse.io/coderoad/jobs/4235759009 | CodeRoad | Senior QA Automation Engineer
+- [x] https://jobs.lever.co/paytm/c3b0b23b-7e6c-4d93-95de-c6c20fadf212 | Paytm | Senior QA Engineer - Mobile Apps/SDET (SKIP: on-site)
+- [x] https://jobs.lever.co/jobgether/e133f812-210d-43d1-ac1a-8321f7c1eb55 | Jobgether | QA Automation Lead (SKIP: US-only)
+
 ## Processed
 (Moves here after evaluation with results)
 

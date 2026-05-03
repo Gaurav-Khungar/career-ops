@@ -4,6 +4,13 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 33 | 2026-05-03 | Clearer.io | Senior QA Automation Engineer | 4.0/5 | Evaluated | ❌ | [033](reports/033-clearer-io-senior-qa-2026-05-03.md) | Perfect Archetype 1 match: architect + lead guild + mentor; Playwright/AWS/k6 stack; verify India eligibility + posting still active before applying |
+| 34 | 2026-05-03 | Canary Technologies | Senior QA Engineer (Remote) | 3.8/5 | Evaluated | ❌ |  | Fully remote team; YC + Insight Ventures backed; "own end-to-end quality"; manual+auto mix (not pure architect); hospitality SaaS niche; confirm India eligibility |
+| 35 | 2026-05-03 | Atrium Campus | Senior QA Automation & AI Testing Engineer | 3.7/5 | Evaluated | ❌ |  | "Define build scale QA strategy" + AI testing focus = great Archetype 1 language; 7-10+ yrs req vs 5.4 yrs = experience gap; India team confirmed if Atrium.ai; verify company identity |
+| 36 | 2026-05-03 | Exadel | Senior Automation QA - Playwright | 3.5/5 | Evaluated | ❌ |  | Perfect stack match (Playwright + TS + JMeter + AI-assisted testing); IT services/consulting model = no product ownership; India likely eligible (Exadel has India offices); not a scale-up product company |
+| 37 | 2026-05-03 | CodeRoad | Senior QA Automation Engineer | 3.1/5 | Evaluated | ❌ |  | Nearshore staffing/staff-aug model (LatAm focus); India eligibility unlikely; no strategy ownership in staffing context; good automation scope but wrong company model |
+| 38 | 2026-05-03 | Paytm | Senior QA Engineer - Mobile Apps/SDET | N/A | SKIP | ❌ |  | On-site Noida dealbreaker (violates remote-first requirement); 3+ yrs requirement below senior level; mobile-only focus; Paytm is established not scale-up |
+| 39 | 2026-05-03 | Jobgether | QA Automation Lead (Remote) | N/A | SKIP | ❌ |  | Jobgether listing; partner company unknown; QA Automation Tech Lead variant appears US-only (Remote-US); pattern matches previous Jobgether US-only evaluations |
 | 11 | 2026-05-02 | Smart Working Solutions | QA Automation Lead (Remote) | 4.0/5 | Evaluated | ❌ | [011](reports/011-smart-working-solutions-qa-lead-2026-05-02.md) | Lead + Automation + Remote = Archetype 1 match; verify JD, comp, employment type before applying |
 | 14 | 2026-05-02 | Insider One | Senior Software QA Engineer | 3.8/5 | Evaluated | ❌ |  | Insider has India eng offices; Senior QA title matches; hybrid uncertainty — confirm WFH policy before applying |
 | 15 | 2026-05-02 | Quanata | Senior SDET, Data QA | 3.7/5 | Evaluated | ❌ |  | Senior SDET + data quality niche is interesting; US company — confirm India remote eligibility first |
