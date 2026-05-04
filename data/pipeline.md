@@ -5,6 +5,20 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 ## Pending
 - [ ] [Add URLs here]
 
+<!-- Scan 2026-05-04 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 12 new finds, 1 evaluated (#040 Real 4.4/5), 9 below threshold, 2 SKIP -->
+- [x] https://jobs.ashbyhq.com/real/f75316d9-24ab-46e4-9879-7dd80e0def1e | Real (REAX) | Senior QA Automation Engineer - Tech Lead (Playwright) | ✅ 4.4/5 report #040
+- [ ] https://jobs.lever.co/aircall/e4531582-7c1c-49c6-80e8-ce82512bc049 | Aircall | Senior QA Engineer - India | 3.5/5 — verify comp
+- [ ] https://jobs.lever.co/gravie/1a651cf9-4c31-417b-9b9b-4aaa2dc9de6e | Gravie | AI Test Automation Engineer | 3.6/5 — verify India eligibility (US health co)
+- [ ] https://job-boards.greenhouse.io/dialpad/jobs/8407056002 | Dialpad | SDET - Bengaluru | 3.5/5 — verify on-site vs remote
+- [ ] https://jobs.lever.co/oaknorth.ai/171ff121-0e8c-4bbd-bbe5-618010a01067 | OakNorth | SDET QA Automation Engineer | 3.4/5 — verify remote + posting age (Dec 2025)
+- [ ] https://job-boards.greenhouse.io/automox/jobs/4428399008 | Automox | Senior SDET | 3.4/5 — verify India eligibility
+- [ ] https://jobs.lever.co/versapay/e552f0f3-6b0d-44c0-9f34-6b43c0c6c930 | Versapay | QA Engineer | 3.3/5 — verify India eligibility
+- [ ] https://jobs.lever.co/applydigital/f76204c5-b5b3-471c-8fec-94954fbac4aa | Apply Digital | Senior QA Automation Engineer | 3.2/5 — consulting model
+- [ ] https://jobs.ashbyhq.com/super.com/0c70da0f-3c4f-40b9-abc2-ebe0df8d56a7 | Super.com | Senior QA Engineer | 3.3/5 — limited JD, verify details
+- [x] https://job-boards.greenhouse.io/cresta/jobs/5148813008 | Cresta | QA Lead AI Agent | SKIP: US remote only
+- [x] https://job-boards.greenhouse.io/knowbe4/jobs/8402290002 | KnowBe4 | Automated Testing QA Lead - SaaS Ecosystem | SKIP: US office only
+- [ ] https://job-boards.greenhouse.io/toast/jobs/7824191 | Toast | QA Engineer III - Bengaluru | 3.0/5 — verify remote option
+
 <!-- Scan 2026-05-03 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) -->
 - [x] https://jobs.lever.co/Clearer/21e0a71d-09a1-4f76-aafc-1739f17bba53 | Clearer.io | Senior QA Automation Engineer
 - [x] https://jobs.lever.co/canarytechnologies/91a97aeb-357a-4ab8-9f98-997850b67d04 | Canary Technologies | Senior QA Engineer (Remote)
