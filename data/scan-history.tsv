@@ -36,3 +36,4 @@ https://job-boards.greenhouse.io/externaljobboards/jobs/5978704004	2026-05-03	we
 https://job-boards.greenhouse.io/coderoad/jobs/4235759009	2026-05-03	websearch	Senior QA Automation Engineer	CodeRoad	added
 https://jobs.lever.co/paytm/c3b0b23b-7e6c-4d93-95de-c6c20fadf212	2026-05-03	websearch	Senior QA Engineer - Mobile Apps/SDET	Paytm	skipped	On-site Noida dealbreaker
 https://jobs.lever.co/jobgether/e133f812-210d-43d1-ac1a-8321f7c1eb55	2026-05-03	websearch	QA Automation Lead (Remote)	Jobgether	skipped	US-only restriction likely
+2026-05-05	WebSearch fallback	12	11	1	Glean 4.5/5 Built In 4.3/5 Phaidra 4.1/5 Juniper Square 4.0/5	Greenhouse/Lever APIs 403; Playwright unavailable; WebSearch fallback

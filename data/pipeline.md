@@ -5,6 +5,19 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 ## Pending
 - [ ] [Add URLs here]
 
+<!-- Scan 2026-05-05 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 12 new finds, 4 evaluated (#053 Glean 4.5/5, #054 Built In 4.3/5, #055 Phaidra 4.1/5, #056 Juniper Square 4.0/5), 7 below threshold, 1 SKIP (Sprinto intern) -->
+- [x] https://job-boards.greenhouse.io/gleanwork/jobs/4464005005 | Glean | Lead Quality Assurance | ✅ 4.5/5 report #053
+- [x] https://job-boards.greenhouse.io/builtin/jobs/7116591 | Built In | Lead QA Automation Engineer (Offshore - India) | ✅ 4.3/5 report #054
+- [x] https://boards.greenhouse.io/phaidra/jobs/4255419005 | Phaidra | Software Engineer (Senior, Test, SDET) | ✅ 4.1/5 report #055
+- [x] https://jobs.ashbyhq.com/junipersquare/7dd1d40e-434f-42b5-ba8e-0abfa42ee980 | Juniper Square | QA Automation Lead (Performance Testing) - India | ✅ 4.0/5 report #056
+- [ ] https://boards.greenhouse.io/aspireio/jobs/7462177002 | Aspire | Senior SDET - India | 3.8/5 — verify comp + remote policy
+- [ ] https://job-boards.greenhouse.io/reltio/jobs/5913410004 | Reltio | Senior AI SDET | 3.6/5 — verify remote vs hybrid (Bengaluru)
+- [ ] https://jobs.ashbyhq.com/writer/7d42793b-c380-464c-bb42-c120328ea6ad | WRITER | QA Automation Engineer | 3.5/5 — verify level + India eligibility
+- [ ] https://jobs.lever.co/tala/ad2121e6-4421-4858-a3b3-5e5bc36e6bc9 | Tala | Senior SDET | 3.5/5 — verify India eligibility + stack fit (Groovy/Kotlin)
+- [ ] https://job-boards.greenhouse.io/recharge/jobs/8006089002 | Recharge | Senior SDET | 3.4/5 — verify India eligibility
+- [ ] https://jobs.lever.co/fullscript/b5261262-fe39-4e31-97c1-bdf2b1c09895 | Fullscript | Senior SDET | 3.2/5 — verify India eligibility (Canada co)
+- [ ] https://jobs.ashbyhq.com/ironcladhq/abfc15f3-c499-40a8-ab65-efb6ff499b90 | Ironclad | Automation Quality Engineer II | 3.0/5 — mid-level, below threshold
+
 <!-- Scan 2026-05-04 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 12 new finds, 1 evaluated (#040 Real 4.4/5), 9 below threshold, 2 SKIP -->
 - [x] https://jobs.ashbyhq.com/real/f75316d9-24ab-46e4-9879-7dd80e0def1e | Real (REAX) | Senior QA Automation Engineer - Tech Lead (Playwright) | ✅ 4.4/5 report #040
 - [ ] https://jobs.lever.co/aircall/e4531582-7c1c-49c6-80e8-ce82512bc049 | Aircall | Senior QA Engineer - India | 3.5/5 — verify comp
