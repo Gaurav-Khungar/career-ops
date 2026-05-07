@@ -4,3 +4,4 @@ output/
 .DS_Store
 .env
 *.log
+.update-dismissed
