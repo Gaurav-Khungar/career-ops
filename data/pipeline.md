@@ -5,6 +5,15 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 ## Pending
 - [ ] [Add URLs here]
 
+<!-- Scan 2026-05-08 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 7 new finds, 3 evaluated (#064 JumpCloud Staff QE 4.3/5, #065 Drivetrain Lead SDET 4.1/5, #066 ASAPP Lead QA 4.0/5), 2 below threshold, 1 SKIP (Simpplr hybrid), 1 wrong archetype (Motive Salesforce) -->
+- [x] https://jobs.lever.co/jumpcloud/9443c3f5-d301-4276-b737-c1264dd3da9d | JumpCloud | Staff Quality Engineer - India | ✅ 4.3/5 report #064
+- [x] https://jobs.lever.co/drivetrain/19a2250b-2c65-451b-b18c-e714aedacb36 | Drivetrain | Lead SDET / QA Manager | ✅ 4.1/5 report #065
+- [x] https://jobs.lever.co/asapp-2/8f11e60b-d1eb-4cdf-b6eb-c9d07142acd3 | ASAPP | Lead QA Engineer | ✅ 4.0/5 report #066
+- [ ] https://jobs.lever.co/gohighlevel/3299d482-4ae7-4f34-abcf-3d1b01e58d38 | HighLevel | SDET III - AI Products | 3.9/5 — India confirmed; AI testing focus; different role from #002/#013; apply if top-3 stall
+- [ ] https://jobs.lever.co/jumpcloud/76000c5d-82c1-4615-a222-152ae9a3ea51 | JumpCloud | Software Quality Engineer - India | 3.5/5 — lower level; apply only if Staff QE (#064) interview doesn't progress
+- [x] https://job-boards.greenhouse.io/simpplr/jobs/5620736004 | Simpplr | Senior SDET (Playwright + JS/TS) | SKIP: hybrid Gurugram dealbreaker
+- [x] https://job-boards.greenhouse.io/gomotive/jobs/8463895002 | Motive | Salesforce QA Automation Engineer | 2.8/5 — Salesforce niche, wrong archetype
+
 <!-- Scan 2026-05-05 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 12 new finds, 4 evaluated (#053 Glean 4.5/5, #054 Built In 4.3/5, #055 Phaidra 4.1/5, #056 Juniper Square 4.0/5), 7 below threshold, 1 SKIP (Sprinto intern) -->
 - [x] https://job-boards.greenhouse.io/gleanwork/jobs/4464005005 | Glean | Lead Quality Assurance | ✅ 4.5/5 report #053
 - [x] https://job-boards.greenhouse.io/builtin/jobs/7116591 | Built In | Lead QA Automation Engineer (Offshore - India) | ✅ 4.3/5 report #054
