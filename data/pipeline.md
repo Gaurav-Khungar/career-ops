@@ -3,7 +3,26 @@
 Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 
 ## Pending
-- [ ] [Add URLs here]
+
+<!-- Scan 2026-05-09 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 18 new URLs found, 12 evaluated (4 reports: #071 Sprinto SDET3 4.2/5, #072 3Pillar Tech Lead 4.1/5, #073 HighLevel CRM Lead 4.0/5, #074 Insider One Team Lead 4.0/5), 6 below threshold, 2 SKIP, 4 dedup/liveness-only -->
+- [ ] https://jobs.lever.co/Sprinto/151dd41f-692b-4c2f-a599-f5301e53b84b | Sprinto | Lead SDET (SDET3) | ✅ 4.2/5 report #071
+- [ ] https://jobs.lever.co/3pillarglobal/89c5ed3e-7079-47f7-b9c0-689a326a0f0b | 3Pillar Global | Technical Lead - Automation QA | ✅ 4.1/5 report #072 | coordinate with #030
+- [ ] https://jobs.lever.co/gohighlevel/4e72eacb-43c0-4f15-b09e-305ca2bbd963 | HighLevel | Lead SDET - CRM Core Modules | ✅ 4.0/5 report #073 | Jan 2026 posting — verify liveness first
+- [ ] https://jobs.lever.co/insiderone/245dab2b-edba-4430-9a0c-0fe8ae486d72 | Insider One | Software QA Team Lead | ✅ 4.0/5 report #074 | verify India fully-remote
+- [ ] https://job-boards.greenhouse.io/finitestate/jobs/5811251004 | Finite State | QA Lead Engineer (AI-First) | 3.8/5 — verify India eligibility (US cybersecurity co)
+- [ ] https://jobs.lever.co/jobgether/f9a23e1c-371e-44de-ab6a-29bc0907cf40 | Jobgether | Lead QA Engineer - Remote | 3.5/5 — verify India eligibility
+- [ ] https://job-boards.greenhouse.io/infotrust/jobs/7638318003 | InfoTrust | Lead Quality Engineer - Automation | 3.5/5 — verify India eligibility (marketing analytics co)
+- [ ] https://jobs.lever.co/3pillarglobal/3c80997d-4786-412c-b9a4-c743a5a3cc79 | 3Pillar Global | Senior SDET (Java/Angular/Playwright) | 3.5/5 — Senior not Lead; apply only if #072 stalls
+- [ ] https://jobs.lever.co/bluesight/5668e24b-3143-4882-89fd-918bb24b3a20 | Bluesight | Senior SDET | 3.4/5 — verify India eligibility (healthcare analytics, likely US-only)
+- [ ] https://jobs.lever.co/levelai/14c51acd-ccda-43d4-b2ad-6f6f1590d07c | Level AI | Senior SDET Engineer | 3.3/5 — verify Noida on-site vs remote (Series C AI co)
+- [ ] https://jobs.lever.co/jobgether/413b737c-41f6-4962-884b-977355c227db | Jobgether | Senior SDET (India) | 3.2/5 — Senior level; aggregator; Nov 2025 posting age
+- [x] https://job-boards.greenhouse.io/vmlenterprisesolutions/jobs/8441196002 | VML Enterprise | Lead QA Engineer | SKIP: WPP ad agency on-site New Delhi
+- [x] https://job-boards.greenhouse.io/tekion/jobs/7650937003 | Tekion | Senior QA Engineer | SKIP: Chennai India on-site; automotive niche
+- [x] https://jobs.lever.co/jobgether/7ea8e016-35b5-46c5-8d00-2fbfbf8fa626 | Jobgether | QA Automation Engineer | SKIP: mid-level below threshold
+- [x] https://jobs.lever.co/jobgether/3fc71f23-34b0-4ec7-b0cc-682d9a050cf1 | Jobgether | QA Engineer | SKIP: mid-level below threshold
+- [x] https://jobs.lever.co/insiderone/7af7b270-7de3-4da2-8f21-14f605b30a93 | Insider One | Senior SQA Engineer | DEDUP: likely updated listing of #014 (3.8/5); Team Lead #074 supersedes
+- [x] https://jobs.lever.co/tala/87cbeaac-c5f8-4327-ad4c-aac5bc9abed3 | Tala | Senior SDET | DEDUP: appears to be updated URL of existing Tala entry (3.5/5 pipeline); Groovy/Kotlin stack concern unchanged
+- [x] https://job-boards.greenhouse.io/mesh/jobs/5199203008 | Mesh | Senior QA Automation Engineer | DEDUP: new job ID but same company as #005 SKIP (on-site SF); verify if new remote role before reconsidering
 
 <!-- Scan 2026-05-08 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 7 new finds, 3 evaluated (#064 JumpCloud Staff QE 4.3/5, #065 Drivetrain Lead SDET 4.1/5, #066 ASAPP Lead QA 4.0/5), 2 below threshold, 1 SKIP (Simpplr hybrid), 1 wrong archetype (Motive Salesforce) -->
 - [x] https://jobs.lever.co/jumpcloud/9443c3f5-d301-4276-b737-c1264dd3da9d | JumpCloud | Staff Quality Engineer - India | ✅ 4.3/5 report #064
@@ -187,4 +206,3 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 - [x] #008 | https://jobs.lever.co/jobgether/7b753948-dfb7-4036-a09b-54ff6f176a70 | Jobgether | Lead QA Tester (AI/LLM) | 3.5/5 | AI/LLM gap; below threshold
 - [x] #009 | https://jobs.lever.co/xsolla/59018129-7412-4fb0-b7a2-aa8405635175 | Xsolla | Lead QA Engineer | 3.0/5 | Serbia location; PHP/Golang stack
 - [x] #010 | https://job-boards.greenhouse.io/entersekt/jobs/5844534004 | Entersekt | Senior QA Engineer | 3.0/5 | Manual focus; SA remote unclear
-
