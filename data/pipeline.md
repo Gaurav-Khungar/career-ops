@@ -4,6 +4,14 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 
 ## Pending
 
+<!-- Scan 2026-05-11 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 6 companies/roles found, 4 new URLs added (1 report: #075 HighLevel Revex Lead SDET 4.1/5), 2 SKIP (SPAN on-site/wrong archetype; Intradiem US/UK only), 2 dedup (HighLevel SDET III Lead Gen variant; Powdevs unverified India) -->
+- [ ] https://jobs.lever.co/gohighlevel/e2b04f7b-bc54-47b6-a163-96b92ed41372 | HighLevel | Lead SDET - Revex | ✅ 4.1/5 report #075 | Revex product vertical; verify liveness; India remote confirmed
+- [ ] https://jobs.lever.co/gohighlevel/3fd62090-5bd9-489d-a9ca-682b08cf55fd | HighLevel | SDET III - Lead Gen | 3.8/5 — Lead Gen vertical; lower than Lead; apply if #073/#075 stall
+- [ ] https://jobs.lever.co/powdevs/8b02ba30-d621-4bf4-9926-1dc756d085f5 | Powdevs | QA Lead | 3.5/5 — verify India eligibility + company stage (unknown startup)
+- [ ] https://job-boards.greenhouse.io/appviewx/jobs/5799955004 | AppViewX | Senior SDET Engineer I | 3.2/5 — India-based (Bangalore/Coimbatore); PKI niche; Senior not Lead
+- [x] https://jobs.ashbyhq.com/span/52fddd51-484e-4cd8-b4e4-c428ea5d61bd | SPAN | Test Architect | SKIP: Bengaluru on-site + hardware/energy niche (wrong archetype)
+- [x] https://job-boards.greenhouse.io/intradiem/jobs/4668646006 | Intradiem | Team Lead, QA | SKIP: US/UK remote only — India ineligible
+
 <!-- Scan 2026-05-09 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 18 new URLs found, 12 evaluated (4 reports: #071 Sprinto SDET3 4.2/5, #072 3Pillar Tech Lead 4.1/5, #073 HighLevel CRM Lead 4.0/5, #074 Insider One Team Lead 4.0/5), 6 below threshold, 2 SKIP, 4 dedup/liveness-only -->
 - [ ] https://jobs.lever.co/Sprinto/151dd41f-692b-4c2f-a599-f5301e53b84b | Sprinto | Lead SDET (SDET3) | ✅ 4.2/5 report #071
 - [ ] https://jobs.lever.co/3pillarglobal/89c5ed3e-7079-47f7-b9c0-689a326a0f0b | 3Pillar Global | Technical Lead - Automation QA | ✅ 4.1/5 report #072 | coordinate with #030
