@@ -68,3 +68,4 @@ https://jobs.lever.co/powdevs/8b02ba30-d621-4bf4-9926-1dc756d085f5	2026-05-11	we
 https://job-boards.greenhouse.io/appviewx/jobs/5799955004	2026-05-11	websearch	Senior SDET Engineer I	AppViewX	added	3.2/5; Senior not Lead; PKI niche
 https://jobs.ashbyhq.com/span/52fddd51-484e-4cd8-b4e4-c428ea5d61bd	2026-05-11	websearch	Test Architect	SPAN	skipped_dealbreaker	On-site Bengaluru + hardware niche wrong archetype
 https://job-boards.greenhouse.io/intradiem/jobs/4668646006	2026-05-11	websearch	Team Lead QA	Intradiem	skipped_location	US/UK remote only; India ineligible
+daily-run	2026-05-15	auto	Daily scan run	System	APIs blocked (all 403); 0 new URLs; evaluated 4 backlog items (#084 Finite State 3.5, #085 HL SDET-III deduped, #086 Powdevs 3.4, #087 AppViewX 3.2); update available v0.0.0→v1.7.1
