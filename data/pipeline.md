@@ -4,6 +4,19 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 
 ## Pending
 
+<!-- Scan 2026-05-16 — APIs blocked (all 403); WebSearch fallback. 10 new URLs found; 1 report created (#088 Real QA Lead 4.0/5); 8 below threshold; 1 SKIP (Deel EMEA). Update available: v0.0.0 → v1.8.0. -->
+- [x] https://jobs.ashbyhq.com/real/4f4e8175-80d7-42c2-8aaf-a8d6fe8fc072 | Real | QA Lead | ✅ #088 4.0/5 — India IST confirmed; QA Lead strategy+team scope; coordinate with #040
+- [x] https://jobs.ashbyhq.com/abridge/ceb6a3c4-05ee-4c96-b563-fa7c585ca41e | Abridge | QA Lead | #089 3.5/5 — AI healthcare; US-only confirmed (FlexJobs); India ineligible unless verified
+- [x] https://jobs.ashbyhq.com/Deepgram/1111c5de-2f90-4f38-a353-115a64a9ca33 | Deepgram | Model Evaluation QA Lead | #090 3.3/5 — US-based; ML evaluation niche (WER/SER/MOS); India eligibility unconfirmed
+- [x] https://jobs.lever.co/toptal/a297b4fa-7c83-43d8-bc19-5abaf3a57fc8 | Toptal | Senior QA Automation Engineer | #091 3.4/5 — globally remote; Senior not Lead; Ruby/Rails stack mismatch (not Python/JS primary)
+- [x] https://jobs.ashbyhq.com/Anima/4ea7c6f9-af38-458e-a821-cc077f2ff498 | Anima | QA Engineering Lead | #092 3.4/5 — Israeli AI design startup; India eligibility unknown; small team; verify before applying
+- [x] https://jobs.ashbyhq.com/assured/4f27b41f-001d-46f1-afad-532ac5b0f139 | Assured | Staff QA Engineer | #093 3.0/5 — insurtech; Staff level; US-based likely; India eligibility unconfirmed
+- [x] https://jobs.ashbyhq.com/Worlds/4751f1dc-763f-44c2-bf23-caff0eac72e0 | Worlds | QA Lead | #094 3.0/5 — gaming/metaverse company; India eligibility unknown; verify before applying
+- [x] https://jobs.lever.co/jobgether/a426e149-c735-4867-a962-59ef8047d296 | Jobgether | Senior QA Engineer (Remote) | 3.0/5 — Senior not Lead; Jobgether aggregator; US timezone likely; below threshold
+- [x] https://jobs.lever.co/jobgether/1c438a76-2a2a-4c4d-88ba-0709fcaf722f | Jobgether | Senior QA Automation Analyst | 2.8/5 — "Analyst" title step-down; aggregator; below threshold
+- [x] https://jobs.ashbyhq.com/Deel/33330afb-f781-4ed9-bfbe-2f4b7dce08cb | Deel | QA Lead Automation Engineer EMEA | SKIP: EMEA designation excludes India (confirmed Serbia location on LinkedIn)
+- [x] https://jobs.lever.co/gohighlevel/d27ad6d9-7097-42b5-a6d2-15f4007ba22e | HighLevel | SDET III Lead Gen (new posting) | DEDUP: new URL same role as #085 (3.8/5 Lead Gen variant); apply only if #073/#075 stall
+
 <!-- Scan 2026-05-15 — APIs blocked (all 403); no new URLs added. Evaluated 4 pending backlog items: #084 Finite State AI-First QA Lead 3.5/5 (US-only comp tiers; India eligibility unconfirmed), #085 HighLevel SDET III Lead Gen deduped against #073 (3.8/5; apply if Lead roles stall), #086 Powdevs QA Lead 3.4/5 (unknown company; verify India), #087 AppViewX Senior SDET I 3.2/5 (PKI niche; Senior not Lead). No new reports — all below 4.0 threshold. Update available: v0.0.0 → v1.7.1. -->
 
 <!-- Scan 2026-05-11 — WebSearch fallback (Greenhouse/Lever APIs blocked 403; Playwright unavailable) — 6 companies/roles found, 4 new URLs added (1 report: #075 HighLevel Revex Lead SDET 4.1/5), 2 SKIP (SPAN on-site/wrong archetype; Intradiem US/UK only), 2 dedup (HighLevel SDET III Lead Gen variant; Powdevs unverified India) -->

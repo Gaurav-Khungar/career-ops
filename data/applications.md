@@ -4,6 +4,7 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 88 | 2026-05-16 | Real | QA Lead | 4.0/5 | Evaluated | ❌ | [088](reports/088-real-qa-lead-2026-05-16.md) | India remote IST confirmed (#040 same co); QA Lead with team strategy + mentoring scope; coordinate with #040 before applying |
 | 84 | 2026-05-15 | Finite State | QA Lead Engineer (AI-First) | 3.5/5 | Evaluated | ❌ |  | US-only comp tiers ($140K-$160K Tier 1); India eligibility unconfirmed; IoT/OT firmware security niche (not SaaS); remote-first Series B; AI-First design mandate is compelling but verify India hiring before applying |
 | 86 | 2026-05-15 | Powdevs | QA Lead | 3.4/5 | Evaluated | ❌ |  | Unknown startup (WordPress/Java/Odoo stack signals non-SaaS agency work); QA Lead title with mentoring scope; remote per Remotive; March 2026 posting; India eligibility unconfirmed; verify company stage and quality culture before applying |
 | 87 | 2026-05-15 | AppViewX | Senior SDET Engineer I | 3.2/5 | Evaluated | ❌ |  | Bangalore/Coimbatore India confirmed; Senior not Lead (2-5yr req); PKI/certificate lifecycle niche; Java-heavy stack (not Python/JS profile); enterprise security vendor (not scale-up); below apply threshold |
