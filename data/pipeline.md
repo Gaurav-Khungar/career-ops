@@ -4,6 +4,20 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 
 ## Pending
 
+<!-- Scan 2026-05-17 — All APIs blocked (Greenhouse 403, Lever empty, Ashby empty — network-level block); WebSearch fallback. 12 new URLs found; 0 reports (all below 4.0 threshold); best pick: Saviynt Senior SDET #095 3.7/5 (verify WFH). v0.0.0→v1.8.0 update applied. -->
+- [x] https://jobs.lever.co/saviynt/1392b5b8-614f-4ec6-b775-4fa24e87762a | Saviynt | Senior SDET | #095 3.7/5 — India Bangalore; SaaS IAM; 4-6yr match; verify remote vs hybrid before applying
+- [x] https://jobs.lever.co/extremenetworks/8d8e9170-9711-485b-b55b-977ef716d13e | Extreme Networks | QA Manager – Automation & App Testing | #096 SKIP — 12+ years required vs 5.4yr; WiFi niche; on-site Bangalore
+- [x] https://jobs.lever.co/Allata/5894822e-71f6-4e29-9daa-424a4bbf8c7c | Allata | QA Lead | #097 3.5/5 — India remote; stack match; consulting model; Oct 2025 posting (7mo) — verify liveness
+- [x] https://jobs.ashbyhq.com/kraken.com/e50565e5-fdb3-4ee0-b6f6-abe5fe5ef24b | Kraken | Senior QA Automation Engineer - Web3 | #098 2.8/5 — Web3 domain gap (EVM/MetaMask); EU-targeted; below threshold
+- [x] https://job-boards.greenhouse.io/gomotive/jobs/8129114002 | Motive | Senior SDET | #099 3.4/5 — new posting (different from Salesforce variant); verify India remote
+- [x] https://job-boards.greenhouse.io/keepersecurity/jobs/4183460009 | Keeper Security | Senior SDET, API / Security | #100 3.3/5 — cybersecurity/PAM; API testing match; verify India eligibility
+- [x] https://job-boards.greenhouse.io/onetrust/jobs/7608831 | OneTrust | Senior Quality Engineer - SDET | #101 3.4/5 — privacy SaaS; large co; verify India remote
+- [x] https://job-boards.greenhouse.io/encora10/jobs/5119692007 | Encora | Senior SDET | #102 3.0/5 — nearshore IT services; low strategic QA influence
+- [x] https://job-boards.greenhouse.io/earnin/jobs/7403324 | EarnIn | Senior SDET – Tooling Engineer | #103 3.2/5 — fintech tooling focus; verify India eligibility
+- [x] https://job-boards.greenhouse.io/distantjob/jobs/8366966002 | DistantJob | QA Lead | #104 3.0/5 — staffing aggregator; underlying role unknown
+- [x] https://jobs.ashbyhq.com/tillo/22ae6a3f-433c-4834-8218-df0f059425e2 | Tillo | Senior SDET | #105 3.2/5 — B2B gifting fintech; verify India eligibility
+- [x] https://jobs.ashbyhq.com/it-labs/02cf8f28-7ea8-4979-b98f-d69e77fae78f | IT Labs | Senior SDET | #106 3.1/5 — IT consulting distributed; verify India
+
 <!-- Scan 2026-05-16 — APIs blocked (all 403); WebSearch fallback. 10 new URLs found; 1 report created (#088 Real QA Lead 4.0/5); 8 below threshold; 1 SKIP (Deel EMEA). Update available: v0.0.0 → v1.8.0. -->
 - [x] https://jobs.ashbyhq.com/real/4f4e8175-80d7-42c2-8aaf-a8d6fe8fc072 | Real | QA Lead | ✅ #088 4.0/5 — India IST confirmed; QA Lead strategy+team scope; coordinate with #040
 - [x] https://jobs.ashbyhq.com/abridge/ceb6a3c4-05ee-4c96-b563-fa7c585ca41e | Abridge | QA Lead | #089 3.5/5 — AI healthcare; US-only confirmed (FlexJobs); India ineligible unless verified

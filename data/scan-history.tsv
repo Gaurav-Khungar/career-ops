@@ -70,3 +70,23 @@ https://jobs.ashbyhq.com/span/52fddd51-484e-4cd8-b4e4-c428ea5d61bd	2026-05-11	we
 https://job-boards.greenhouse.io/intradiem/jobs/4668646006	2026-05-11	websearch	Team Lead QA	Intradiem	skipped_location	US/UK remote only; India ineligible
 daily-run	2026-05-15	auto	Daily scan run	System	APIs blocked (all 403); 0 new URLs; evaluated 4 backlog items (#084 Finite State 3.5, #085 HL SDET-III deduped, #086 Powdevs 3.4, #087 AppViewX 3.2); update available v0.0.0→v1.7.1
 daily-run	2026-05-16	auto	Daily scan run	System	APIs blocked (all 403); WebSearch fallback; 10 new URLs found; 1 report (#088 Real QA Lead 4.0/5); 8 below threshold; 1 SKIP (Deel EMEA); 1 DEDUP (HL Lead Gen)
+https://jobs.lever.co/saviynt/1392b5b8-614f-4ec6-b775-4fa24e87762a	2026-05-17	websearch	Senior SDET	Saviynt	added	IAM SaaS; Bangalore India; April 2026 posting
+https://jobs.lever.co/extremenetworks/8d8e9170-9711-485b-b55b-977ef716d13e	2026-05-17	websearch	QA Manager – Automation & Application Testing	Extreme Networks	added	Bangalore India; Python/Selenium/WiFi/Cloud
+https://jobs.lever.co/Allata/5894822e-71f6-4e29-9daa-424a4bbf8c7c	2026-05-17	websearch	QA Lead	Allata	added	India remote (US+India+Argentina offices); Playwright/Cypress/Selenium
+https://jobs.ashbyhq.com/kraken.com/e50565e5-fdb3-4ee0-b6f6-abe5fe5ef24b	2026-05-17	websearch	Senior QA Automation Engineer - Web3	Kraken	added	Globally remote; Web3/crypto niche; verify India eligibility
+https://job-boards.greenhouse.io/gomotive/jobs/8129114002	2026-05-17	websearch	Senior SDET	Motive	added	New job ID (not Salesforce variant #8463895002); verify India remote
+https://job-boards.greenhouse.io/keepersecurity/jobs/4183460009	2026-05-17	websearch	Senior SDET, API / Security	Keeper Security	added	Cybersecurity; verify India eligibility
+https://job-boards.greenhouse.io/onetrust/jobs/7608831	2026-05-17	websearch	Senior Quality Engineer - SDET	OneTrust	added	Privacy/compliance SaaS; verify India remote
+https://job-boards.greenhouse.io/encora10/jobs/5119692007	2026-05-17	websearch	Senior SDET	Encora	added	Nearshore IT services; likely India presence; verify
+https://job-boards.greenhouse.io/earnin/jobs/7403324	2026-05-17	websearch	Senior SDET – Tooling Engineer	EarnIn	added	Fintech; verify India eligibility
+https://job-boards.greenhouse.io/distantjob/jobs/8366966002	2026-05-17	websearch	QA Lead	DistantJob	added	Fully remote staffing aggregator; verify underlying role
+https://jobs.ashbyhq.com/tillo/22ae6a3f-433c-4834-8218-df0f059425e2	2026-05-17	websearch	Senior SDET	Tillo	added	Gifting/fintech; verify India eligibility
+https://jobs.ashbyhq.com/it-labs/02cf8f28-7ea8-4979-b98f-d69e77fae78f	2026-05-17	websearch	Senior SDET	IT Labs	added	IT consulting; verify India eligibility
+https://jobs.ashbyhq.com/saris-ai/6a11f30c-9420-4861-91e0-d0bd894fbedd	2026-05-17	websearch	SDET / QA Lead	Saris AI	skipped_location	SF-based; USD salary; India eligibility unlikely
+https://jobs.ashbyhq.com/truelogic/44bb5cb8-2e31-4a0d-9e9d-2542536c8094	2026-05-17	websearch	Senior QA Engineer (SDET/Automation)	Truelogic	skipped_location	Nearshore LATAM staffing; not India
+https://job-boards.greenhouse.io/nearsure/jobs/5070738007	2026-05-17	websearch	Lead QA Engineer - Talent Connection	Nortal/Nearsure	skipped_location	LATAM-focused staffing; not India
+https://job-boards.greenhouse.io/subsplash/jobs/8447432002	2026-05-17	websearch	SDET III	Subsplash	skipped_location	US states only; India ineligible confirmed
+https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5586168004	2026-05-17	websearch	Senior SDET – QA Lead Focus	PlayStation Global	skipped_location	Los Angeles CA; US-only
+https://job-boards.greenhouse.io/securitycompass/jobs/7574623	2026-05-17	websearch	Manager QA	Security Compass	skipped_location	Canada/US; India eligibility unlikely
+https://jobs.lever.co/jobgether/69e2c64f-c8a8-4d58-910a-e8d4292e0593	2026-05-17	websearch	QA Lead - Fully remote Worldwide	Jobgether	skipped_dedup	Jobgether aggregator; Dec 2025 posting age; below priority threshold
+daily-run	2026-05-17	auto	Daily scan run	System	All APIs blocked (Greenhouse 403 network-block, Lever/Ashby empty response); WebSearch fallback; 12 new URLs added; 8 skipped (location/dedup/level)

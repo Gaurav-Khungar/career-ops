@@ -4,6 +4,18 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 95 | 2026-05-17 | Saviynt | Senior SDET | 3.7/5 | Evaluated | ❌ |  | India Bangalore (verify remote vs hybrid); SaaS IAM platform; 4-6yr req matches 5.4yr; Glassdoor 4.1/5; check WFH policy before applying |
+| 96 | 2026-05-17 | Extreme Networks | QA Manager – Automation & App Testing | N/A | SKIP | ❌ |  | 12+ years required vs 5.4yr — hard experience blocker; Bangalore on-site; WiFi niche domain mismatch |
+| 97 | 2026-05-17 | Allata | QA Lead | 3.5/5 | Evaluated | ❌ |  | India remote confirmed; Playwright/Cypress stack match; consulting model; Oct 2025 posting (7mo old) — verify liveness before applying |
+| 98 | 2026-05-17 | Kraken | Senior QA Automation Engineer - Web3 | 2.8/5 | Evaluated | ❌ |  | Web3/blockchain gap (EVM, MetaMask, Synpress); EU-targeted posting; India eligibility unconfirmed; below threshold |
+| 99 | 2026-05-17 | Motive | Senior SDET | 3.4/5 | Evaluated | ❌ |  | New Motive posting (different from Salesforce QA variant #8463895002); verify India remote before applying |
+| 100 | 2026-05-17 | Keeper Security | Senior SDET, API / Security | 3.3/5 | Evaluated | ❌ |  | Cybersecurity/PAM SaaS; API testing stack match; verify India eligibility |
+| 101 | 2026-05-17 | OneTrust | Senior Quality Engineer - SDET | 3.4/5 | Evaluated | ❌ |  | Privacy/compliance SaaS; large co (1K+ employees); verify India remote |
+| 102 | 2026-05-17 | Encora | Senior SDET | 3.0/5 | Evaluated | ❌ |  | Nearshore IT services model; India presence; low strategic QA influence expected |
+| 103 | 2026-05-17 | EarnIn | Senior SDET – Tooling Engineer | 3.2/5 | Evaluated | ❌ |  | Fintech; tooling/infrastructure QA focus; verify India eligibility |
+| 104 | 2026-05-17 | DistantJob | QA Lead | 3.0/5 | Evaluated | ❌ |  | Staffing aggregator; underlying company and role unknown; verify before investing time |
+| 105 | 2026-05-17 | Tillo | Senior SDET | 3.2/5 | Evaluated | ❌ |  | B2B gifting/fintech SaaS; verify India eligibility and remote scope |
+| 106 | 2026-05-17 | IT Labs | Senior SDET | 3.1/5 | Evaluated | ❌ |  | IT consulting with distributed teams; India presence and remote policy unconfirmed |
 | 88 | 2026-05-16 | Real | QA Lead | 4.0/5 | Evaluated | ❌ | [088](reports/088-real-qa-lead-2026-05-16.md) | India remote IST confirmed (#040 same co); QA Lead with team strategy + mentoring scope; coordinate with #040 before applying |
 | 84 | 2026-05-15 | Finite State | QA Lead Engineer (AI-First) | 3.5/5 | Evaluated | ❌ |  | US-only comp tiers ($140K-$160K Tier 1); India eligibility unconfirmed; IoT/OT firmware security niche (not SaaS); remote-first Series B; AI-First design mandate is compelling but verify India hiring before applying |
 | 86 | 2026-05-15 | Powdevs | QA Lead | 3.4/5 | Evaluated | ❌ |  | Unknown startup (WordPress/Java/Odoo stack signals non-SaaS agency work); QA Lead title with mentoring scope; remote per Remotive; March 2026 posting; India eligibility unconfirmed; verify company stage and quality culture before applying |
