@@ -4,6 +4,18 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 
 ## Pending
 
+<!-- Scan 2026-05-19 — APIs blocked (all 403); Playwright CDN blocked; WebSearch fallback. 10 new URLs found; 0 reports (none ≥ 4.0); best pick: BlueCat Senior QA Specialist #107 3.7/5 (verify India eligibility). -->
+- [x] https://jobs.lever.co/bluecatnetworks/b9008d5d-03e0-4b23-9b0f-363c2a1aabda | BlueCat Networks | Senior QA Specialist | #107 3.7/5 — DNS/network SaaS; Cypress/JS + strategy + mentoring; India eligibility unconfirmed (Toronto co)
+- [x] https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Bengaluru-India---Remote/QA-Automation-Engineer_R14034 | Proofpoint | QA Automation Engineer | #108 3.4/5 — Bengaluru India remote confirmed; Python + AI testing; enterprise large co (not scale-up); mid-level framing
+- [x] https://jobs.lever.co/gohighlevel/4310ebae-86cd-426c-b253-83fc3ba4b2b1 | HighLevel | SDET II - Mobile | #109 3.5/5 — India remote confirmed; SDET II not Lead; mobile testing focus; below Lead archetype threshold
+- [x] https://jobs.lever.co/cloaked-app/e58f8ccd-9873-4fe8-b3c0-abfb46136b9a | Cloaked | QA Automation Engineer | #110 3.2/5 — Series A NYC privacy startup; Playwright/Appium/Python stack match; India eligibility uncertain; not Senior/Lead title
+- [x] https://job-boards.greenhouse.io/faeththerapeutics/jobs/4226312009 | Faeth Therapeutics | Staff SDET | #111 3.0/5 — biotech/therapeutics; Greenhouse board mostly non-tech; US-only likely; India ineligible
+- [x] https://jobs.lever.co/3pillarglobal/dd46a457-b8e0-41f7-abc2-1f9bd1f50a8d | 3Pillar Global | Senior Automation Test Engineer | #112 3.3/5 — IT services; Java/Selenium stack; Senior not Lead; below threshold
+- [x] https://jobs.lever.co/3pillarglobal/68aaecc4-0227-4fdd-8d1a-87187a49a605 | 3Pillar Global | Senior Automation Tester | #113 3.0/5 — IT services; Senior Tester level; Java-heavy; below threshold
+- [x] https://jobs.lever.co/applydigital/fd2582c8-c087-49cd-b1af-f273c9c31b6b | Apply Digital | Sr QA Automation Engineer | DEDUP: new URL same consulting company as #047 (3.2/5); model unchanged
+- [x] https://jobs.ashbyhq.com/junipersquare/f5e9c2e3-496f-473c-8891-ecc5f7bc9ddb | Juniper Square | QA Automation Lead - India | DEDUP: likely updated listing of #056 Performance Testing Lead 4.0/5; 7-10yr req unchanged
+- [x] https://jobs.lever.co/veeva/9a663661-3e9a-458e-af48-bae171fda568 | Veeva Systems | Senior/Principal Automation QA | SKIP: US-only (unrestricted US work authorization required)
+
 <!-- Scan 2026-05-17 — All APIs blocked (Greenhouse 403, Lever empty, Ashby empty — network-level block); WebSearch fallback. 12 new URLs found; 0 reports (all below 4.0 threshold); best pick: Saviynt Senior SDET #095 3.7/5 (verify WFH). v0.0.0→v1.8.0 update applied. -->
 - [x] https://jobs.lever.co/saviynt/1392b5b8-614f-4ec6-b775-4fa24e87762a | Saviynt | Senior SDET | #095 3.7/5 — India Bangalore; SaaS IAM; 4-6yr match; verify remote vs hybrid before applying
 - [x] https://jobs.lever.co/extremenetworks/8d8e9170-9711-485b-b55b-977ef716d13e | Extreme Networks | QA Manager – Automation & App Testing | #096 SKIP — 12+ years required vs 5.4yr; WiFi niche; on-site Bangalore
