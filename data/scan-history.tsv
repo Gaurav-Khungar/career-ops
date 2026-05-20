@@ -90,3 +90,18 @@ https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5586168
 https://job-boards.greenhouse.io/securitycompass/jobs/7574623	2026-05-17	websearch	Manager QA	Security Compass	skipped_location	Canada/US; India eligibility unlikely
 https://jobs.lever.co/jobgether/69e2c64f-c8a8-4d58-910a-e8d4292e0593	2026-05-17	websearch	QA Lead - Fully remote Worldwide	Jobgether	skipped_dedup	Jobgether aggregator; Dec 2025 posting age; below priority threshold
 daily-run	2026-05-17	auto	Daily scan run	System	All APIs blocked (Greenhouse 403 network-block, Lever/Ashby empty response); WebSearch fallback; 12 new URLs added; 8 skipped (location/dedup/level)
+https://jobs.lever.co/veeva/0ea93208-2ac6-40cd-8f73-464cf356f270	2026-05-20	websearch	Lead Engineer - Test Automation	Veeva Systems	added
+https://jobs.ashbyhq.com/kiwi/7a90455a-62f1-4c35-8a86-78d78af9be9f	2026-05-20	websearch	Senior QA Automation Engineer	Kiwi Financial Inc	added
+https://job-boards.greenhouse.io/firmpilotailawfirmmarketing/jobs/5068572008	2026-05-20	websearch	Senior SDET	FirmPilot	added
+https://job-boards.greenhouse.io/cerebrassystems/jobs/7611862003	2026-05-20	websearch	SDET - AI Cluster	Cerebras Systems	added
+https://job-boards.greenhouse.io/supplyhouse/jobs/5766521004	2026-05-20	websearch	SDET	SupplyHouse.com	added
+https://jobs.ashbyhq.com/masabi/d7eec85c-b925-4d61-9aef-c3938e8b0b67	2026-05-20	websearch	QA Automation Engineer	Masabi	added
+https://jobs.lever.co/remofirst/a697c0f4-9061-47b0-9104-72d3a6dd0c27	2026-05-20	websearch	Automation QA Engineer	RemoFirst	added
+https://job-boards.greenhouse.io/dragos/jobs/5039765008	2026-05-20	websearch	Senior SDET	Dragos	added
+https://job-boards.greenhouse.io/freshprints/jobs/5848969004	2026-05-20	websearch	SDET	Fresh Prints	added
+https://jobs.lever.co/stable-money1/555a838a-2ae2-4c2f-99d0-c07895db6063	2026-05-20	websearch	SDET	Stable Money	added
+https://jobs.ashbyhq.com/real/504cc0d1-d4ca-4768-9dfb-f32b713730b9	2026-05-20	websearch	Sr QA Automation Engineer - Tech Lead	Real	dedup
+https://job-boards.greenhouse.io/appviewx/jobs/5799947004	2026-05-20	websearch	Senior SDET Engineer II	AppViewX	dedup
+https://jobs.lever.co/levelai/55678283-3e23-46f0-baaa-48b91b5ff6ea	2026-05-20	websearch	SDET	Level AI	dedup
+https://jobs.lever.co/Sprinto/cd494dfa-1307-45ae-9881-1383028f01bf	2026-05-20	websearch	SDET I	Sprinto	dedup
+daily-run

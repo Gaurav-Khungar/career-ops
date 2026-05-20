@@ -4,6 +4,22 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 
 ## Pending
 
+<!-- Scan 2026-05-20 — APIs blocked (all 403); Playwright CDN blocked; WebSearch fallback. 10 new URLs found + 4 DEDUPs; 0 reports (none ≥ 4.0); best pick: Veeva Lead Test Automation #114 3.7/5 (verify India remote vs Pune on-site). -->
+- [x] https://jobs.lever.co/veeva/0ea93208-2ac6-40cd-8f73-464cf356f270 | Veeva Systems | Lead Engineer - Test Automation | #114 3.7/5 — large pharma SaaS (NYSE); Lead Archetype 1 framing; India offices Pune/Hyderabad; verify remote vs on-site + India eligibility (prior Veeva listing was US-only)
+- [x] https://job-boards.greenhouse.io/cerebrassystems/jobs/7611862003 | Cerebras Systems | SDET - AI Cluster | #117 3.5/5 — leading AI chip company; Bengaluru India confirmed; ML/AI testing domain; SDET not Lead; verify remote vs on-site
+- [x] https://job-boards.greenhouse.io/firmpilotailawfirmmarketing/jobs/5068572008 | FirmPilot | Senior SDET | #116 3.4/5 — AI law firm marketing; "own testing strategy + validate RAG/agent behavior"; $135K-$162K USD (likely US-only); verify India eligibility
+- [x] https://jobs.lever.co/remofirst/a697c0f4-9061-47b0-9104-72d3a6dd0c27 | RemoFirst | Automation QA Engineer | #120 3.3/5 — global remote HR/EOR platform; India eligible (remote-native company); not Lead; verify seniority and strategy scope
+- [x] https://jobs.ashbyhq.com/kiwi/7a90455a-62f1-4c35-8a86-78d78af9be9f | Kiwi Financial Inc | Senior QA Automation Engineer | #115 3.3/5 — India fintech (credit-building); likely India-eligible; Senior not Lead; verify comp and strategy influence
+- [x] https://jobs.ashbyhq.com/masabi/d7eec85c-b925-4d61-9aef-c3938e8b0b67 | Masabi | QA Automation Engineer (remote) | #119 3.2/5 — UK fare payment tech; global remote; QA Automation Engineer not Lead; verify India eligibility and scope
+- [x] https://job-boards.greenhouse.io/supplyhouse/jobs/5766521004 | SupplyHouse.com | SDET | #118 3.2/5 — B2B eCommerce; India remote confirmed (12-9PM IST); 3+ yrs req (mid-level); SDET not Lead; below apply threshold
+- [x] https://job-boards.greenhouse.io/freshprints/jobs/5848969004 | Fresh Prints | SDET | #122 3.0/5 — US college merchandise; India remote; Electron + AI features; SDET not Lead; below threshold
+- [x] https://jobs.lever.co/stable-money1/555a838a-2ae2-4c2f-99d0-c07895db6063 | Stable Money | SDET | #123 3.0/5 — India fintech app; SDET not Lead; Playwright/Cypress/Appium stack match; below threshold
+- [x] https://job-boards.greenhouse.io/dragos/jobs/5039765008 | Dragos | Senior SDET | #121 2.8/5 — OT/ICS cybersecurity; likely US-focused (critical infrastructure); India eligibility unconfirmed; niche domain mismatch
+- [x] https://jobs.ashbyhq.com/real/504cc0d1-d4ca-4768-9dfb-f32b713730b9 | Real | Sr QA Automation Engineer - Tech Lead | DEDUP: likely updated listing of #040 Tech Lead (4.4/5); same company; 2PM-11PM IST; coordinate with #040/#088 before applying
+- [x] https://job-boards.greenhouse.io/appviewx/jobs/5799947004 | AppViewX | Senior SDET Engineer II | DEDUP: same company as #087 (Senior SDET I 3.2/5, Bangalore); SDET II higher seniority ~3.4/5; apply only if #087 decision improves
+- [x] https://jobs.lever.co/levelai/55678283-3e23-46f0-baaa-48b91b5ff6ea | Level AI | SDET (Noida, India) | DEDUP: same company as #078 (3.3/5); Noida office = likely on-site dealbreaker; same analysis applies
+- [x] https://jobs.lever.co/Sprinto/cd494dfa-1307-45ae-9881-1383028f01bf | Sprinto | SDET I | DEDUP: same company as #071 Lead SDET (SDET3 4.2/5); SDET I is step-down; apply #071 instead
+
 <!-- Scan 2026-05-19 — APIs blocked (all 403); Playwright CDN blocked; WebSearch fallback. 10 new URLs found; 0 reports (none ≥ 4.0); best pick: BlueCat Senior QA Specialist #107 3.7/5 (verify India eligibility). -->
 - [x] https://jobs.lever.co/bluecatnetworks/b9008d5d-03e0-4b23-9b0f-363c2a1aabda | BlueCat Networks | Senior QA Specialist | #107 3.7/5 — DNS/network SaaS; Cypress/JS + strategy + mentoring; India eligibility unconfirmed (Toronto co)
 - [x] https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Bengaluru-India---Remote/QA-Automation-Engineer_R14034 | Proofpoint | QA Automation Engineer | #108 3.4/5 — Bengaluru India remote confirmed; Python + AI testing; enterprise large co (not scale-up); mid-level framing
