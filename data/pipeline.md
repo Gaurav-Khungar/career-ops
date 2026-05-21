@@ -4,6 +4,12 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 
 ## Pending
 
+<!-- Scan 2026-05-21 — APIs blocked (all 403); Playwright CDN blocked; WebSearch fallback. 3 new URLs added (#124-126); 0 reports (none ≥ 4.0); 3 SKIPs/DEDUPs (Simpplr Gurugram hybrid dup of #069; VML MAP on-site; GlobalLogic Noida hybrid + experience gap). Best picks: Toptal #124 3.2/5 (global remote but Ruby/RSpec stack mismatch); Rocket Software #125 3.0/5 (India remote but storage domain mismatch). -->
+- [x] https://jobs.lever.co/toptal/a297b4fa-7c83-43d8-bc19-5abaf3a57fc8 | Toptal | Senior QA Automation Engineer | #124 3.2/5 — global remote (worldwide); Ruby/RSpec/Cypress daily stack vs Python/JS profile; 5+ yrs req matches; execution-focused no architecture mandate; below Archetype 1 threshold
+- [x] https://jobs.lever.co/jobgether/382a9fb4-7d53-445f-b330-3a5c20a07452 | Rocket Software (via Jobgether) | Software Engineer in Test III (Automation, Virtualization) | #125 3.0/5 — India remote confirmed; storage/virtualization domain (SAN/NAS) = niche mismatch; legacy IBM company not scale-up; SET III not Lead; below threshold
+- [x] https://job-boards.greenhouse.io/map/jobs/8441199002 | VML MAP | Lead QA Engineer | #126 SKIP — New Delhi on-site dealbreaker; WPP advertising agency; same analysis as #081 VML Enterprise
+- [x] https://jobs.lever.co/jobgether/1cf01074-31ff-48c9-b796-f08ee97673d0 | Simpplr (via Jobgether) | Senior SDET (Playwright + JS/TS) | SKIP/DEDUP — Gurugram hybrid on-site; same role as #069 already SKIPped
+
 <!-- Scan 2026-05-20 — APIs blocked (all 403); Playwright CDN blocked; WebSearch fallback. 10 new URLs found + 4 DEDUPs; 0 reports (none ≥ 4.0); best pick: Veeva Lead Test Automation #114 3.7/5 (verify India remote vs Pune on-site). -->
 - [x] https://jobs.lever.co/veeva/0ea93208-2ac6-40cd-8f73-464cf356f270 | Veeva Systems | Lead Engineer - Test Automation | #114 3.7/5 — large pharma SaaS (NYSE); Lead Archetype 1 framing; India offices Pune/Hyderabad; verify remote vs on-site + India eligibility (prior Veeva listing was US-only)
 - [x] https://job-boards.greenhouse.io/cerebrassystems/jobs/7611862003 | Cerebras Systems | SDET - AI Cluster | #117 3.5/5 — leading AI chip company; Bengaluru India confirmed; ML/AI testing domain; SDET not Lead; verify remote vs on-site

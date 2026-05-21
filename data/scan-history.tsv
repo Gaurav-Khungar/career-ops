@@ -105,3 +105,9 @@ https://job-boards.greenhouse.io/appviewx/jobs/5799947004	2026-05-20	websearch	S
 https://jobs.lever.co/levelai/55678283-3e23-46f0-baaa-48b91b5ff6ea	2026-05-20	websearch	SDET	Level AI	dedup
 https://jobs.lever.co/Sprinto/cd494dfa-1307-45ae-9881-1383028f01bf	2026-05-20	websearch	SDET I	Sprinto	dedup
 daily-run
+https://jobs.lever.co/toptal/a297b4fa-7c83-43d8-bc19-5abaf3a57fc8	2026-05-21	websearch	Senior QA Automation Engineer	Toptal	added
+https://jobs.lever.co/jobgether/382a9fb4-7d53-445f-b330-3a5c20a07452	2026-05-21	websearch	Software Engineer in Test III (Automation, Virtualization)	Rocket Software (Jobgether)	added
+https://job-boards.greenhouse.io/map/jobs/8441199002	2026-05-21	websearch	Lead QA Engineer	VML MAP	skipped_location	New Delhi on-site; WPP agency model; same as #081 VML Enterprise SKIP
+https://jobs.lever.co/jobgether/1cf01074-31ff-48c9-b796-f08ee97673d0	2026-05-21	websearch	Senior SDET (Playwright + JS/TS)	Simpplr (Jobgether)	skipped_dedup	Gurugram hybrid on-site; same as #069 Simpplr SKIP
+https://www.globallogic.com/in/careers/qe-lead-sdet-lead-playwright-genai-ai-driven-testing-irc285779/	2026-05-21	websearch	QE Lead / SDET Lead (Playwright, GenAI)	GlobalLogic	skipped_location	Noida hybrid + 8yr experience gap; consulting model
+daily-run	2026-05-21	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 3 new URLs added (#124-126); 3 skipped (location/dedup/experience); 0 reports (none ≥ 4.0)
