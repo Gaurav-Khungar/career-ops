@@ -111,3 +111,17 @@ https://job-boards.greenhouse.io/map/jobs/8441199002	2026-05-21	websearch	Lead Q
 https://jobs.lever.co/jobgether/1cf01074-31ff-48c9-b796-f08ee97673d0	2026-05-21	websearch	Senior SDET (Playwright + JS/TS)	Simpplr (Jobgether)	skipped_dedup	Gurugram hybrid on-site; same as #069 Simpplr SKIP
 https://www.globallogic.com/in/careers/qe-lead-sdet-lead-playwright-genai-ai-driven-testing-irc285779/	2026-05-21	websearch	QE Lead / SDET Lead (Playwright, GenAI)	GlobalLogic	skipped_location	Noida hybrid + 8yr experience gap; consulting model
 daily-run	2026-05-21	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 3 new URLs added (#124-126); 3 skipped (location/dedup/experience); 0 reports (none ≥ 4.0)
+https://jobs.ashbyhq.com/vCluster/ee07bd9e-7b1a-48c7-beda-06a3e740a0e7	2026-05-22	websearch	Senior Software Development Engineer in Test	vCluster Labs	added
+https://jobs.lever.co/xsolla/4f2be560-aeb7-424a-bc81-95f8e830ff90	2026-05-22	websearch	Lead QA Automation Engineer	Xsolla	added
+https://careers.norstella.com/jobs/17063236-senior-engineer-qa-playwright	2026-05-22	websearch	Senior Engineer QA (Playwright)	Norstella	added
+https://jobs.ashbyhq.com/saris-ai/6a11f30c-9420-4861-91e0-d0bd894fbedd	2026-05-22	websearch	SDET / QA Lead	Saris AI	added
+https://jobs.ashbyhq.com/wand-ai/ac2c4903-4525-4156-a826-8f905a805e57	2026-05-22	websearch	Staff AI Software Developer in Test	Wand AI	added
+https://job-boards.greenhouse.io/quisitivejobs/jobs/7773653	2026-05-22	websearch	Senior QA Engineer (Playwright)	Quisitive	added
+https://job-boards.greenhouse.io/rapp/jobs/7797791	2026-05-22	websearch	Senior SDET	RAPP	added
+https://jobs.lever.co/jobgether/45a8c673-a01a-4c78-b7cc-5f92c822bb29	2026-05-22	websearch	Lead Software Tester	Jobgether	added
+https://jobs.ashbyhq.com/zodl/744c7d02-7573-4dcd-98f0-3c64e545e287	2026-05-22	websearch	Senior Mobile QA Lead	ZODL	added
+https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5586168004	2026-05-22	websearch	Senior SDET – QA Lead Focus	PlayStation Global	skipped_location	Los Angeles CA US-only; India ineligible
+https://job-boards.greenhouse.io/coherehealth/jobs/7703927003	2026-05-22	websearch	Senior QA Automation Engineer	Cohere Health	skipped_location	Hyderabad India but IN-OFFICE; on-site dealbreaker
+https://job-boards.greenhouse.io/litify/jobs/7931370	2026-05-22	websearch	Senior QA Automation Engineer	Litify	skipped_location	US-only remote; India ineligible
+https://jobs.lever.co/binance/044d292f-a98d-48d4-9aad-77f2354619ae	2026-05-22	websearch	Senior Automation QA Engineer / SDET (Python)	Binance	skipped_location	APAC hybrid not fully remote; crypto domain mismatch
+daily-run	2026-05-22	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 13 new URLs (#127-139); 4 SKIPs; 2 DEDUPs; 0 reports (none >= 4.0); best picks: vCluster Labs #127 3.5/5; Xsolla #128 3.5/5
