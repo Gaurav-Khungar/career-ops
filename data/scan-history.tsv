@@ -125,3 +125,13 @@ https://job-boards.greenhouse.io/coherehealth/jobs/7703927003	2026-05-22	websear
 https://job-boards.greenhouse.io/litify/jobs/7931370	2026-05-22	websearch	Senior QA Automation Engineer	Litify	skipped_location	US-only remote; India ineligible
 https://jobs.lever.co/binance/044d292f-a98d-48d4-9aad-77f2354619ae	2026-05-22	websearch	Senior Automation QA Engineer / SDET (Python)	Binance	skipped_location	APAC hybrid not fully remote; crypto domain mismatch
 daily-run	2026-05-22	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 13 new URLs (#127-139); 4 SKIPs; 2 DEDUPs; 0 reports (none >= 4.0); best picks: vCluster Labs #127 3.5/5; Xsolla #128 3.5/5
+https://jobs.ashbyhq.com/deel/40300abf-f7bb-4f2b-a1dc-c3ba209f76df	2026-05-24	websearch	Senior QA Automation Engineer (EMEA)	Deel	added
+https://jobs.ashbyhq.com/scale%20army%20careers/e9771800-dd4a-41cc-8db5-a0a4c9b7b49b	2026-05-24	websearch	Senior QA Engineer – AI-Augmented Automation	Scale Army	added
+https://jobs.ashbyhq.com/polymarket/110fc95d-7252-4c0f-8e04-34e6f2144f40	2026-05-24	websearch	Senior QA Engineer	Polymarket	added
+https://job-boards.greenhouse.io/emtrain/jobs/7646577003	2026-05-24	websearch	Senior Software QA & Release Manager	Emtrain	added
+https://jobs.lever.co/weekdayworks/53f81dfe-9520-4ede-bfda-ec508c9e72ea	2026-05-24	websearch	QA Automation Engineer	Weekday	added
+https://job-boards.greenhouse.io/tegnaindia/jobs/5080201007	2026-05-24	websearch	QA Engineer	TEGNA India	added
+https://jobs.ashbyhq.com/truelogic/44bb5cb8-2e31-4a0d-9e9d-2542536c8094	2026-05-24	websearch	Senior SDET / QA Engineer (Healthcare)	Truelogic	skipped_location	LATAM-focused; India ineligible
+https://job-boards.greenhouse.io/thefork/jobs/7845224	2026-05-24	websearch	Quality Automation Engineer (SDET)	The Fork	skipped_location	EU/Milan-based; India ineligible
+https://job-boards.greenhouse.io/flash/jobs/5221240008	2026-05-24	websearch	Lead Software Engineer in Test (SDET)	Flash	skipped_location	Dominican Republic-based; India ineligible
+daily-run	2026-05-24	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 6 new URLs added (#142-#147); 3 SKIPs (location/LATAM/EU); 0 reports (none >= 4.0); best picks: Polymarket #144 3.5/5 (build-from-scratch QA; verify India + crypto domain); Deel EMEA #142 3.4/5 (top-tier SaaS; verify India EMEA eligibility)
