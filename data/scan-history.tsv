@@ -135,3 +135,15 @@ https://jobs.ashbyhq.com/truelogic/44bb5cb8-2e31-4a0d-9e9d-2542536c8094	2026-05-
 https://job-boards.greenhouse.io/thefork/jobs/7845224	2026-05-24	websearch	Quality Automation Engineer (SDET)	The Fork	skipped_location	EU/Milan-based; India ineligible
 https://job-boards.greenhouse.io/flash/jobs/5221240008	2026-05-24	websearch	Lead Software Engineer in Test (SDET)	Flash	skipped_location	Dominican Republic-based; India ineligible
 daily-run	2026-05-24	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 6 new URLs added (#142-#147); 3 SKIPs (location/LATAM/EU); 0 reports (none >= 4.0); best picks: Polymarket #144 3.5/5 (build-from-scratch QA; verify India + crypto domain); Deel EMEA #142 3.4/5 (top-tier SaaS; verify India EMEA eligibility)
+https://jobs.lever.co/tryjeeves/1713c5e7-b97b-423e-8e52-41da6a6d030b	2026-05-25	websearch	Senior QA Engineer	Jeeves	added
+https://jobs.lever.co/lodgify/1a97f9f2-df73-4f7d-a24e-ced08052327f	2026-05-25	websearch	Senior Automation QA Engineer	Lodgify	added
+https://jobs.lever.co/veeva/d316abfb-f956-472c-804d-74347a94863e	2026-05-25	websearch	Senior QA Engineer	Veeva Systems	added
+https://jobs.lever.co/jobgether/205e6d24-e975-4029-a3ec-078f8e47800f	2026-05-25	websearch	Remote Senior QA Engineer	Jobgether	added
+https://jobs.ashbyhq.com/vcluster/2d3ebcb6-1f7f-4bd7-9ea8-02c171a967fd	2026-05-25	websearch	Senior QA Engineer	vCluster Labs	added
+https://job-boards.greenhouse.io/encora10/jobs/5140807007	2026-05-25	websearch	Senior QA Engineer	Encora	added
+https://jobs.lever.co/skygrid/d6c50590-f910-4ecf-bcb2-6cc2066e41a1	2026-05-25	websearch	Senior SDET	SkyGrid	skipped_domain	Aerospace/aviation domain; likely US-only remote; niche domain mismatch
+https://jobs.lever.co/cin7/b8de1f9a-3ba6-4dd5-be09-34403c81ee33	2026-05-25	websearch	Senior QA Engineer	Cin7	skipped_location	30 days remote per 6 months = primarily office-based; violates remote-first non-negotiable
+https://jobs.ashbyhq.com/Tempo/ee7c084e-d0cb-4b7a-adde-064e8a23207d	2026-05-25	websearch	QA Specialist – Agent+	Tempo	skipped_level	Specialist title below target seniority; EU-centric
+https://jobs.ashbyhq.com/roompricegenie/5004ba4d-c232-4a9e-8739-8765a5638e70	2026-05-25	websearch	Senior QA Test Automation Engineer	RoomPriceGenie	skipped_location	EU timezone explicitly required; India ineligible
+https://jobs.ashbyhq.com/mexdigital/16d5e7c6-7af0-4dc8-a510-1f79f1fdda2a	2026-05-25	websearch	QA Engineer	Multibank Group	skipped_level	QA Engineer not Senior/Lead; below target seniority
+daily-run	2026-05-25	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 11 new entries (#148-#158); 5 SKIPs; 6 Evaluated (none ≥ 4.0); 0 reports; best pick: Jeeves #148 3.7/5 (global fintech $380M; a16z; "leading testing team"; India assumed — verify)
