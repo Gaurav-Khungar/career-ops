@@ -147,3 +147,12 @@ https://jobs.ashbyhq.com/Tempo/ee7c084e-d0cb-4b7a-adde-064e8a23207d	2026-05-25	w
 https://jobs.ashbyhq.com/roompricegenie/5004ba4d-c232-4a9e-8739-8765a5638e70	2026-05-25	websearch	Senior QA Test Automation Engineer	RoomPriceGenie	skipped_location	EU timezone explicitly required; India ineligible
 https://jobs.ashbyhq.com/mexdigital/16d5e7c6-7af0-4dc8-a510-1f79f1fdda2a	2026-05-25	websearch	QA Engineer	Multibank Group	skipped_level	QA Engineer not Senior/Lead; below target seniority
 daily-run	2026-05-25	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 11 new entries (#148-#158); 5 SKIPs; 6 Evaluated (none ≥ 4.0); 0 reports; best pick: Jeeves #148 3.7/5 (global fintech $380M; a16z; "leading testing team"; India assumed — verify)
+https://jobs.lever.co/findem/6cd9d3d3-afac-4e6b-8b9d-8ad2cc15990b	2026-05-26	websearch	Staff Quality Assurance Engineer	Findem	added
+https://jobs.lever.co/findem/58a1d9cf-a716-4e93-a91a-1eb3aa7e4593	2026-05-26	websearch	Staff Software Developer in Test	Findem	added
+https://jobs.ashbyhq.com/stack-ai/08671fee-58d3-4171-a67d-c53a7068fbf3	2026-05-26	websearch	Lead QA Engineer	StackAI	added
+https://jobs.lever.co/investorflow/f4282bb3-5896-4d94-8899-091adf6965b9	2026-05-26	websearch	QA Automation Lead	InvestorFlow	added
+https://job-boards.greenhouse.io/zetaglobal/jobs/6005470004	2026-05-26	websearch	Staff QA Automation Engineer	Zeta Global	added
+https://job-boards.greenhouse.io/zetaglobal/jobs/5353877004	2026-05-26	websearch	Senior QA Automation Engineer	Zeta Global	added
+https://jobs.ashbyhq.com/answersnow/8aa58694-b647-4044-9ddd-181069640e0b	2026-05-26	websearch	Senior QA Automation Engineer	AnswersNow	added
+https://jobs.ashbyhq.com/real/6d4bc00f-7682-454a-9c87-c3adee0af77b	2026-05-26	websearch	Senior QA Automation Engineer - Tech Lead	Real	skipped_dedup	New URL same company as #040 (4.4/5); coordinate with existing Real applications
+daily-run	2026-05-26	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 7 new entries (#159-#165) + 1 DEDUP (Real); 0 SKIPs; 0 reports (none ≥ 4.0); best pick: Findem Staff QA #159 3.9/5 (AI talent SaaS Series C; Staff level; India confirmed; verify liveness)
