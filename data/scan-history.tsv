@@ -165,3 +165,8 @@ https://jobs.ashbyhq.com/machinify/2f6dd716-42c9-4490-9ded-fee3b2631d7f	2026-05-
 https://job-boards.greenhouse.io/coderoad/jobs/4205541009	2026-05-27	websearch	QA Analyst (AI Systems)	CodeRoad	skipped_analysis	LatAm nearshore model India ineligible
 https://jobs.ashbyhq.com/wander/121c24e0-eeff-49a8-ac56-793d2dbc9fcd	2026-05-27	websearch	QA Engineer	Wander	skipped_analysis	Title too low; US-only
 https://jobs.ashbyhq.com/zip/6f47f615-b3a9-4e2a-87c0-47aac2e46c16	2026-05-27	websearch	Software Engineering Manager QA	Zip	skipped_analysis	Manager US comp; India ineligible
+https://jobs.lever.co/veeva/05acd8f1-fc74-4b07-adf1-f1e1434cabd1	2026-05-28	websearch	Lead QA Engineer - Services Tooling	Veeva Systems	added
+https://jobs.ashbyhq.com/appsmith/d227c039-fb6f-49ac-be16-5887fea87f53	2026-05-28	websearch	QA Automation Lead	Appsmith	added
+https://pricelabs.freshteam.com/jobs/q0ULE9s53jsi/automation-qa-engineer-remote	2026-05-28	websearch	Automation QA Engineer	PriceLabs	added
+https://weworkremotely.com/remote-jobs/walter-qa-automation-engineer-india	2026-05-28	websearch	QA Automation Engineer	Walter	skipped_analysis	Staffing agency; Feb 2025 posting — old; actual employer unknown
+daily-run	2026-05-28	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 4 new entries (#175-#178); 1 SKIP (Walter staffing+old); 0 reports (none ≥ 4.0); best pick: Veeva Lead QA Services Tooling #175 3.7/5 (Hyderabad confirmed; founding QA strategy; verify liveness)
