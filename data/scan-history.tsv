@@ -170,3 +170,9 @@ https://jobs.ashbyhq.com/appsmith/d227c039-fb6f-49ac-be16-5887fea87f53	2026-05-2
 https://pricelabs.freshteam.com/jobs/q0ULE9s53jsi/automation-qa-engineer-remote	2026-05-28	websearch	Automation QA Engineer	PriceLabs	added
 https://weworkremotely.com/remote-jobs/walter-qa-automation-engineer-india	2026-05-28	websearch	QA Automation Engineer	Walter	skipped_analysis	Staffing agency; Feb 2025 posting — old; actual employer unknown
 daily-run	2026-05-28	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 4 new entries (#175-#178); 1 SKIP (Walter staffing+old); 0 reports (none ≥ 4.0); best pick: Veeva Lead QA Services Tooling #175 3.7/5 (Hyderabad confirmed; founding QA strategy; verify liveness)
+https://job-boards.greenhouse.io/vonage/jobs/8506369002	2026-05-29	websearch	Lead Performance Tester (SDET)	Vonage	added
+https://job-boards.greenhouse.io/vonage/jobs/8341553002	2026-05-29	websearch	Lead Automation Engineer (SDET)	Vonage	added
+https://job-boards.greenhouse.io/vonage/jobs/8341560002	2026-05-29	websearch	Senior SDET (QA Automation Lead)	Vonage	added
+https://jobs.lever.co/3pillarglobal/3cb8f163-afee-4c41-bed2-7516e0c61ecf	2026-05-29	websearch	QA Technical Lead – Automation (UiPath)	3Pillar Global	skipped_analysis	UiPath RPA niche — outside Playwright/Cypress/Python QA architect profile; 8th 3Pillar eval; do not apply
+https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-offsite-India/Automation-QA-Lead_R63904	2026-05-29	websearch	Automation QA Lead	Motorola Solutions	added
+daily-run	2026-05-29	auto	Daily scan run	System	All APIs blocked (403); v1.8.1 update applied (providers/ bootstrapped); WebSearch fallback; 5 new entries (#179-#183); 1 SKIP (3Pillar UiPath RPA niche — 8th eval); 4 Evaluated (none ≥ 4.0); 0 reports; best pick: Vonage Lead Performance Tester (SDET) #179 3.3/5 (India Remote confirmed; leading SDET guild; k6/Python; Ericsson enterprise concern; verify liveness)
