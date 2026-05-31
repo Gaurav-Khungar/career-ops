@@ -184,3 +184,37 @@ https://jobs.lever.co/smart-working-solutions/f8ce55b6-db5a-4702-8bf3-e58bfe2c19
 https://jobs.ashbyhq.com/lemlist/6b87920a-a087-4128-b4e0-d717f17c3551	2026-05-30	websearch	QA Automation Engineer (Playwright)	lemlist	added
 https://jobs.lever.co/granicus/606ca9eb-4552-4f6d-a62e-614d8a6b6e86	2026-05-30	websearch	Quality Automation Engineer - GovM	Granicus	added
 daily-run	2026-05-30	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 7 new entries (#184-#190); 0 SKIPs; 7 Evaluated (none ≥ 4.0); 0 reports; best pick: HighLevel Engineering Manager SDET-AI #184 3.6/5 (India Delhi remote confirmed; 8+ yrs req = experience gap; 10th HL eval; apply only if Lead roles stall)
+https://jobs.lever.co/gohighlevel/9f73dab1-2c0c-4a68-996a-34496f421cf1	2026-05-31	websearch	Staff SDET - AI	HighLevel	added
+https://job-boards.greenhouse.io/alphasense/jobs/7760723002	2026-05-31	websearch	Senior QA Automation Engineer	AlphaSense	added
+https://jobs.lever.co/caseware/4dbedcdb-c0c9-4303-b07e-aa2ecb362a14	2026-05-31	websearch	AI Test Architect	Caseware	added
+https://jobs.lever.co/airalo/db2b1f75-2e15-4eda-bad9-f4a105ac66e9	2026-05-31	websearch	Senior QA Engineer	Airalo	added
+https://jobs.ashbyhq.com/assured/71ef71b7-8bc5-4c7b-9d52-593e7ebf34d2	2026-05-31	websearch	Staff SDET	Assured	added
+https://jobs.lever.co/drivetrain/4d6be8c0-0380-4243-9969-8d946aee096f	2026-05-31	websearch	Lead SDET / QA Manager	Drivetrain	skipped_dedup	New URL same role as #065 (4.1/5); verify liveness of original
+https://job-boards.greenhouse.io/clickhouse/jobs/5654024004	2026-05-31	websearch	QA Engineer - Core Database	ClickHouse	skipped_dedup	New job ID same company as #001 (4.3/5); report exists
+https://job-boards.greenhouse.io/clickhouse/jobs/5654026004	2026-05-31	websearch	QA Engineer - Core Database	ClickHouse	skipped_dedup	New job ID same company as #001 (4.3/5); report exists
+https://jobs.lever.co/gohighlevel/b14addba-e132-4dfa-ba07-f69455ac13ae	2026-05-31	websearch	Lead SDET - AI	HighLevel	skipped_dedup	Already added 2026-04-30
+https://jobs.lever.co/gohighlevel/ca4ef37c-f259-4b6b-8d28-c034feed8874	2026-05-31	websearch	Lead SDET - Lead Gen	HighLevel	skipped_dedup	Already added 2026-04-30; evaluated #013 3.8/5
+https://jobs.lever.co/gohighlevel/4e72eacb-43c0-4f15-b09e-305ca2bbd963	2026-05-31	websearch	Lead SDET - CRM Core Modules	HighLevel	skipped_dedup	Already added 2026-05-09; report #073
+https://jobs.lever.co/gohighlevel/e2b04f7b-bc54-47b6-a163-96b92ed41372	2026-05-31	websearch	Lead SDET - Revex	HighLevel	skipped_dedup	Already added 2026-05-11; report #075 4.1/5
+https://boards.greenhouse.io/aspireio/jobs/7462177002	2026-05-31	websearch	Senior SDET - India	Aspire	skipped_dedup	Already in pipeline; evaluated #057 3.8/5
+https://boards.greenhouse.io/phaidra/jobs/4255419005	2026-05-31	websearch	Senior SDET	Phaidra	skipped_dedup	Already in pipeline; report #055 4.1/5
+https://jobs.lever.co/smart-working-solutions/f90fd0c0-405a-4110-a243-3c27aeed84f4	2026-05-31	websearch	QA Automation Lead	Smart Working Solutions	skipped_dedup	Already in pipeline; report #011 4.0/5
+https://jobs.lever.co/Sprinto/151dd41f-692b-4c2f-a599-f5301e53b84b	2026-05-31	websearch	Lead SDET	Sprinto	skipped_dedup	Already evaluated; report #071 4.2/5
+https://job-boards.greenhouse.io/mesh/jobs/5199203008	2026-05-31	websearch	Senior QA Automation Engineer	Mesh	skipped_dedup	Same company as previous SKIP; skipped_dedup 2026-05-09
+https://jobs.lever.co/insiderone/7af7b270-7de3-4da2-8f21-14f605b30a93	2026-05-31	websearch	Senior Software QA Engineer	Insider One	skipped_dedup	Previously skipped_dedup 2026-05-09; report #074 supersedes
+https://jobs.lever.co/toptal/a297b4fa-7c83-43d8-bc19-5abaf3a57fc8	2026-05-31	websearch	Senior QA Automation Engineer	Toptal	skipped_dedup	Already added 2026-05-21; evaluated #124 3.2/5
+https://jobs.lever.co/powdevs/8b02ba30-d621-4bf4-9926-1dc756d085f5	2026-05-31	websearch	QA Lead	Powdevs	skipped_dedup	Already added 2026-05-11; evaluated #086 3.4/5
+https://jobs.lever.co/jobgether/7b753948-dfb7-4036-a09b-54ff6f176a70	2026-05-31	websearch	Lead QA Tester	Jobgether	skipped_dedup	Already added 2026-04-30
+https://job-boards.greenhouse.io/knowbe4/jobs/8500816002	2026-05-31	websearch	QA Engineer (MIS) Remote	KnowBe4	skipped_dedup	Already added 2026-04-30
+https://job-boards.greenhouse.io/zetaglobal/jobs/5353877004	2026-05-31	websearch	Senior QA Automation Engineer	Zeta Global	skipped_dedup	Already added 2026-05-26; evaluated #164 3.2/5
+https://jobs.lever.co/3pillarglobal/aa558efd-4a89-45df-810a-e183b6f3475f	2026-05-31	websearch	QA Lead-Contractor	3Pillar Global	skipped_analysis	Nearshore contractor model; consistent SKIP pattern
+https://jobs.lever.co/3pillarglobal/4b19cc7c-3252-408e-b384-40ab83407f4a	2026-05-31	websearch	Tech Lead - QA Engineer	3Pillar Global	skipped_analysis	Nearshore contractor model; consistent SKIP pattern
+https://jobs.lever.co/3pillarglobal/89c5ed3e-7079-47f7-b9c0-689a326a0f0b	2026-05-31	websearch	Technical Lead - Automation QA	3Pillar Global	skipped_analysis	Nearshore contractor model; consistent SKIP pattern
+https://job-boards.greenhouse.io/neuraflash/jobs/5978041004	2026-05-31	websearch	Quality Assurance Lead	NeuraFlash	skipped_analysis	Salesforce partner; US-only remote
+https://jobs.lever.co/dronedeploy/487cfa63-2c07-4021-ba37-0a8dcdc583ee	2026-05-31	websearch	Lead QA Engineer	DroneDeploy	skipped_location	USA only per job description
+https://job-boards.greenhouse.io/coderoad/jobs/4235759009	2026-05-31	websearch	Senior QA Automation Engineer	CodeRoad	skipped_analysis	LatAm nearshore model; India ineligible per #037 analysis
+https://job-boards.greenhouse.io/toast/jobs/7824191	2026-05-31	websearch	QA Engineer III	Toast	skipped_analysis	Large enterprise (NYSE:TOST); QA Engineer III not Lead; not scale-up
+https://jobs.lever.co/smart-working-solutions/bdcdd311-40f8-433c-85ce-19f9e7af4523	2026-05-31	websearch	QA Automation Engineer	Smart Working Solutions	skipped_title	Title below Senior/Lead target seniority
+https://job-boards.greenhouse.io/mfsgtechnologiesindia/jobs/4988657008	2026-05-31	websearch	Senior Testing Automation Engineer	MFSG Technologies	skipped_analysis	IT services company; India-based; not scale-up
+https://job-boards.greenhouse.io/gomotive/jobs/8463895002	2026-05-31	websearch	Salesforce QA Automation Engineer	Motive	skipped_analysis	Salesforce-specific niche; not primary automation stack
+daily-run	2026-05-31	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 5 new entries (#191-#195); 19 DEDUPs/SKIPs; 0 reports (none ≥ 4.0); best pick: HighLevel Staff SDET-AI #193 3.8/5 (India confirmed; Staff level upgrade)
