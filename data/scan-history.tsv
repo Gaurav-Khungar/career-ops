@@ -218,3 +218,17 @@ https://jobs.lever.co/smart-working-solutions/bdcdd311-40f8-433c-85ce-19f9e7af45
 https://job-boards.greenhouse.io/mfsgtechnologiesindia/jobs/4988657008	2026-05-31	websearch	Senior Testing Automation Engineer	MFSG Technologies	skipped_analysis	IT services company; India-based; not scale-up
 https://job-boards.greenhouse.io/gomotive/jobs/8463895002	2026-05-31	websearch	Salesforce QA Automation Engineer	Motive	skipped_analysis	Salesforce-specific niche; not primary automation stack
 daily-run	2026-05-31	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 5 new entries (#191-#195); 19 DEDUPs/SKIPs; 0 reports (none ≥ 4.0); best pick: HighLevel Staff SDET-AI #193 3.8/5 (India confirmed; Staff level upgrade)
+https://job-boards.greenhouse.io/gleanwork/jobs/4464005005	2026-06-01	websearch	Lead Quality Assurance	Glean	skipped_dedup	Same URL as #053 (4.5/5 2026-05-05); role confirmed still active
+https://job-boards.greenhouse.io/infotrust/jobs/7638318003	2026-06-01	websearch	Lead Quality Engineer - Automation	InfoTrust	added
+https://job-boards.greenhouse.io/cresta/jobs/5148813008	2026-06-01	websearch	QA Lead, AI Agent	Cresta	added
+https://jobs.ashbyhq.com/junipersquare/7dd1d40e-434f-42b5-ba8e-0abfa42ee980	2026-06-01	websearch	QA Automation Lead (Performance Testing)	Juniper Square	added
+https://jobs.ashbyhq.com/real/f75316d9-24ab-46e4-9879-7dd80e0def1e	2026-06-01	websearch	Senior QA Automation Engineer - Tech Lead (Playwright)	Real	added
+https://job-boards.greenhouse.io/knowbe4/jobs/8402290002	2026-06-01	websearch	Automated Testing/QA Lead - SaaS Ecosystem (Remote)	KnowBe4	added
+https://job-boards.greenhouse.io/infotrust/jobs/7748255003	2026-06-01	websearch	Quality Engineer - Strategy and Assurance	InfoTrust	added
+https://jobs.lever.co/gohighlevel/d27ad6d9-7097-42b5-a6d2-15f4007ba22e	2026-06-01	websearch	Software Development Engineer in Test III - Lead Gen	HighLevel	added
+https://job-boards.greenhouse.io/finitestate/jobs/5811251004	2026-06-01	websearch	QA Lead Engineer (AI-First Engineering Org)	Finite State	added
+https://job-boards.greenhouse.io/cerebrassystems/jobs/7561010003	2026-06-01	websearch	SDET (ML Automation and Quality)	Cerebras Systems	added
+https://job-boards.greenhouse.io/cerebrassystems/jobs/7610238003	2026-06-01	websearch	ML API Features SDET	Cerebras Systems	added
+https://jobs.lever.co/standtogether/6b4bc05b-e759-4d95-bf12-98a7e1fba7bf	2026-06-01	websearch	Lead Software Development Engineer in Test (SDET)	Stand Together	added
+https://jobs.lever.co/olo/30e1c324-2ed3-46ab-a655-0704b544c94c	2026-06-01	websearch	Senior Quality Engineer	Olo	added
+daily-run	2026-06-01	auto	Daily scan run	System	All APIs blocked (403); WebSearch fallback; 12 new entries (#197-#208); 1 DEDUP (Glean #053 confirmed active); 0 reports (none >=4.0 among new); best new pick: InfoTrust Lead QE #197 3.8/5 (India remote; first QA hire; EST tz concern); Cresta QA Lead AI Agent #198 3.8/5 (India TBD)
