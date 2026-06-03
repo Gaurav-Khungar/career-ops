@@ -4,6 +4,9 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 219 | 2026-06-03 | Fospha | Senior SDET | N/A | SKIP | ❌ | [219]() | UK marketing analytics; India ineligible; Senior not Lead; Spark tech mismatch; do not apply |
+| 221 | 2026-06-03 | Lean Technologies | SDET | N/A | SKIP | ❌ | [221]() | Pune India on-site (dealbreaker); SDET 4+ yrs below level; Open Banking MENA domain; do not apply |
+| 222 | 2026-06-03 | Wokelo AI | SDET-1 | 3.0/5 | Evaluated | ❌ | [222]() | India remote confirmed; Gen-AI startup (Seed/Series A below scale-up pref); SDET-1 not Lead; Java/Python no Playwright; comp undisclosed; below apply threshold |
 | 184 | 2026-05-30 | HighLevel | Engineering Manager SDET - AI | 3.6/5 | Evaluated | ❌ |  | 10th HighLevel eval; Engineering Manager = Archetype 2 step-up; India Delhi remote confirmed; TypeScript/Playwright; 8+ yrs required vs 5.4yr actual = experience gap risk; apply only if Lead roles stall |
 | 185 | 2026-05-30 | Swap Commerce | Staff SDET | 3.3/5 | Evaluated | ❌ |  | AI-native agentic commerce; $100M Series C (ICONIQ/DST); build QA Platform from scratch = Archetype 1 Staff mandate; India eligibility unconfirmed (US/EU expansion focus); e-commerce domain; verify India hiring before applying |
 | 187 | 2026-05-30 | Empower Finance | Sr. QA Engineer | 3.0/5 | Evaluated | ❌ |  | US consumer fintech (Cash Advance, Thrive credit, Petal); Sr. QA Engineer not Lead; Remote listing; India eligibility unconfirmed (US-focused startup); FinTech preferred domain but below threshold on level + India TBD |
