@@ -4,6 +4,10 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 223 | 2026-06-05 | Teramind | QA Lead - Release and Automation | 3.7/5 | Evaluated | ❌ |  | Fully remote (global since 2014); India eligible; QA Lead + mentor + AI transformation mandate; insider risk/monitoring domain not preferred; desktop testing scope; company stage unclear; below apply threshold |
+| 224 | 2026-06-05 | BlastPoint | Sr. Automation QA Engineer / SDET | 3.3/5 | Evaluated | ❌ |  | Build-from-scratch mandate; Playwright/Python/Pytest stack match; Pittsburgh US startup; India eligibility unconfirmed; data analytics domain; Sr not Lead in title; below apply threshold |
+| 225 | 2026-06-05 | Tandems | Software Development Engineer in Test | 2.8/5 | Evaluated | ❌ |  | India presence confirmed (US/Canada/India/Singapore); AI financial advice platform; execution-focused SDET not Lead; reports to Automation Manager; below archetype threshold |
+| 226 | 2026-06-05 | Envoy Global | Senior QA Analyst, Automation | N/A | SKIP | ❌ |  | Hyderabad India — on-site (deal breaker for remote-first); QA Analyst not Lead; HR tech/immigration SaaS domain; do not apply |
 | 219 | 2026-06-03 | Fospha | Senior SDET | N/A | SKIP | ❌ | [219]() | UK marketing analytics; India ineligible; Senior not Lead; Spark tech mismatch; do not apply |
 | 221 | 2026-06-03 | Lean Technologies | SDET | N/A | SKIP | ❌ | [221]() | Pune India on-site (dealbreaker); SDET 4+ yrs below level; Open Banking MENA domain; do not apply |
 | 222 | 2026-06-03 | Wokelo AI | SDET-1 | 3.0/5 | Evaluated | ❌ | [222]() | India remote confirmed; Gen-AI startup (Seed/Series A below scale-up pref); SDET-1 not Lead; Java/Python no Playwright; comp undisclosed; below apply threshold |
