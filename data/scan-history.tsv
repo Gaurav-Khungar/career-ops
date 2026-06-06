@@ -252,3 +252,12 @@ https://job-boards.greenhouse.io/blastpoint/jobs/5150588007	2026-06-05	websearch
 https://jobs.lever.co/tandems/0d4255d1-21e1-4159-b30f-9afb1d66b631	2026-06-05	websearch	Software Development Engineer in Test	Tandems	added	India presence confirmed; AI financial advice platform; SDET execution not Lead; below threshold 2.8/5
 https://job-boards.greenhouse.io/envoyglobalinc/jobs/5817653004	2026-06-05	websearch	Senior QA Analyst Automation	Envoy Global	skipped_location	Hyderabad on-site dealbreaker; QA Analyst not Lead; HR tech domain
 daily-run	2026-06-05	auto	Daily scan run	System	All APIs blocked (403) 5th consecutive day; WebSearch fallback; 4 new entries (#223-#226): Teramind 3.7/5 BlastPoint 3.3/5 Tandems 2.8/5 Envoy Global SKIP; 0 reports (none >=4.0); best pending: Glean #053 4.5/5 (apply); Teramind #223 3.7/5 (escalation)
+https://jobs.lever.co/netomi/d01e3c06-2049-4e60-84cf-4e4f7f28d53d	2026-06-06	websearch	SDET III – Generative AI QA	Netomi	added
+https://jobs.lever.co/resilinc/07e80471-b2ec-4b70-abf7-05f2b8ee7b77	2026-06-06	websearch	SDET AI	Resilinc	added
+https://jobs.lever.co/gohighlevel/e80bd29e-da83-4cf4-85cb-0a14f8617155	2026-06-06	websearch	SDET III - LeadGen AI	HighLevel	added
+https://jobs.lever.co/sanas.ai/7e6db84d-3e39-4964-985f-15cbf1a6f0b9	2026-06-06	websearch	SDET Lead	Sanas.ai	added
+https://employee.eightfold.ai/careers/job/68739663538-senior-sdet--bangalore-karnataka-india	2026-06-06	websearch	Senior SDET / AI SDET Engineer	Eightfold AI	added
+https://jobs.lever.co/smart-working-solutions/f90fd0c0-405a-4110-a243-3c27aeed84f4	2026-06-06	websearch	QA Automation Lead [AS226]	Smart Working Solutions	dedup:#011
+https://jobs.lever.co/gohighlevel/78fa484f-16ed-493b-9f16-d46916ad010c	2026-06-06	websearch	SDET III - Payments	HighLevel	skip:14th-HL-eval
+https://jobs.lever.co/gohighlevel/cd392fd0-bf30-4a6e-868a-4e30863de0b0	2026-06-06	websearch	SDET III - Marketplace	HighLevel	skip:14th-HL-eval
+https://jobs.lever.co/jobgether/71f83329-a376-4c4b-aba2-8b6cf73af4b8	2026-06-06	websearch	QA Lead - Fully Remote Worldwide	Jobgether	skip:7yr-req-aggregator
