@@ -4,6 +4,9 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 243 | 2026-06-12 | Teikametrics | Software Test Architect | 4.4/5 | Evaluated | ❌ | [167](reports/167-teikametrics-test-architect-2026-06-12.md) | India Bengaluru office confirmed; remote; Test Architect = Archetype 1 bullseye; Series B $65M; verify liveness + apply ✅ |
+| 244 | 2026-06-12 | CSC Generation | Lead QA Engineer | 4.0/5 | Evaluated | ❌ | [168](reports/168-csc-generation-lead-qa-2026-06-12.md) | Series E $263M eCommerce; Playwright-first; India Shared Services office likely; 7+ yr gap risk — strong cover note needed |
+| 246 | 2026-06-12 | OnceHub | Head of Product Quality | 3.0/5 | Evaluated | ❌ |  | India remote confirmed; B2B SaaS scheduling; Head-level role requires QA+PM background; PM career trajectory = hard gap for Gaurav; above current level; do not apply |
 | 240 | 2026-06-11 | Kaseya | Staff SDET | 3.2/5 | Evaluated | ❌ |  | IT management SaaS PE-backed (5K+ employees not scale-up); Bangalore India; Staff level + AI-assisted testing mandate; 7yr req gap + company stage below preference; below apply threshold |
 | 241 | 2026-06-11 | Backbase | Senior QA Engineer | 3.3/5 | Evaluated | ❌ |  | Banking OS FinTech (€2.5B valuation; 2,100 employees; Hyderabad India); quality architect language; Java mandatory = stack mismatch; hybrid model vs remote preference; below apply threshold |
 | 242 | 2026-06-11 | Sporty Group | SDET | 2.8/5 | Evaluated | ❌ |  | Sports betting/gaming platform (500-1K employees); EMEA remote = India eligibility UNCONFIRMED; Python+Playwright match; gambling domain not preferred; below apply threshold until India confirmed |
