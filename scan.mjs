@@ -296,9 +296,11 @@ async function verifyOffers(offers) {
   // Dynamic imports keep the default zero-token path free of Playwright startup
   let chromium;
   let checkUrlLiveness;
+  let launchChromium;
   try {
     ({ chromium } = await import('playwright'));
     ({ checkUrlLiveness } = await import('./liveness-browser.mjs'));
+    ({ launchChromium } = await import('./browser-launch.mjs'));
   } catch (err) {
     throw new Error(
       `--verify requires Playwright with Chromium (run "npx playwright install chromium"): ${err.message}`,
@@ -308,7 +310,7 @@ async function verifyOffers(offers) {
 
   let browser;
   try {
-    browser = await chromium.launch({ headless: true });
+    browser = await launchChromium(chromium, { headless: true });
   } catch (err) {
     throw new Error(
       `--verify could not launch Chromium (run "npx playwright install chromium" or re-run without --verify): ${err.message}`,

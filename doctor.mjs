@@ -44,8 +44,9 @@ function checkDependencies() {
 async function checkPlaywright() {
   try {
     const { chromium } = await import('playwright');
+    const { resolveChromiumExecutablePath } = await import('./browser-launch.mjs');
     const execPath = chromium.executablePath();
-    if (existsSync(execPath)) {
+    if (existsSync(execPath) || resolveChromiumExecutablePath(chromium)) {
       return { pass: true, label: 'Playwright chromium installed' };
     }
     return {

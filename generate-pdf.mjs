@@ -11,6 +11,7 @@
  */
 
 import { chromium } from 'playwright';
+import { launchChromium } from './browser-launch.mjs';
 import { resolve, dirname } from 'path';
 import { readFile } from 'fs/promises';
 import { mkdirSync } from 'fs';
@@ -133,7 +134,7 @@ async function generatePDF() {
     console.log(`🧹 ATS normalization: ${totalReplacements} replacements (${breakdown})`);
   }
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await launchChromium(chromium, { headless: true });
   try {
     const page = await browser.newPage();
 

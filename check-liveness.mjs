@@ -17,6 +17,7 @@
 import { chromium } from 'playwright';
 import { readFile } from 'fs/promises';
 import { checkUrlLiveness } from './liveness-browser.mjs';
+import { launchChromium } from './browser-launch.mjs';
 
 async function main() {
   const args = process.argv.slice(2);
@@ -37,7 +38,7 @@ async function main() {
 
   console.log(`Checking ${urls.length} URL(s)...\n`);
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await launchChromium(chromium, { headless: true });
   const page = await browser.newPage();
 
   let active = 0, expired = 0, uncertain = 0;
