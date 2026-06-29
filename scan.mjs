@@ -122,10 +122,25 @@ function buildTitleFilter(titleFilter) {
   const positive = (titleFilter?.positive || []).map(k => k.toLowerCase());
   const negative = (titleFilter?.negative || []).map(k => k.toLowerCase());
 
+  // Short single-word acronyms (e.g. "QA", "QE") use word-boundary matching so
+  // they don't match inside larger words — "QA" must catch "QA Engineer" but not
+  // "Qatar". Longer keywords keep loose substring matching to absorb morphology
+  // ("test" → "testing", "test automation").
+  const buildMatcher = (keyword) => {
+    if (keyword.length <= 3 && !keyword.includes(' ')) {
+      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(`(?<![a-z0-9])${escaped}(?![a-z0-9])`);
+      return (lower) => re.test(lower);
+    }
+    return (lower) => lower.includes(keyword);
+  };
+  const posMatchers = positive.map(buildMatcher);
+  const negMatchers = negative.map(buildMatcher);
+
   return (title) => {
     const lower = title.toLowerCase();
-    const hasPositive = positive.length === 0 || positive.some(k => lower.includes(k));
-    const hasNegative = negative.some(k => lower.includes(k));
+    const hasPositive = posMatchers.length === 0 || posMatchers.some(m => m(lower));
+    const hasNegative = negMatchers.some(m => m(lower));
     return hasPositive && !hasNegative;
   };
 }

@@ -69,8 +69,9 @@ tracked_companies:
 
   # Tier 2: Scale-ups & Growth Companies
   - name: Notion
-    careers_url: https://notion.so/careers
-    api: https://boards-api.greenhouse.io/v1/boards/notion/jobs
+    # Moved off Greenhouse → Ashby (2026-06; old greenhouse/notion board 404s).
+    # Ashby provider auto-detects from the jobs.ashbyhq.com/<slug> careers_url.
+    careers_url: https://jobs.ashbyhq.com/notion
     enabled: true
 
   - name: Airtable
