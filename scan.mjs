@@ -29,6 +29,7 @@
 
 import { readFileSync, writeFileSync, appendFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { pathToFileURL, fileURLToPath } from 'url';
+import { spawnSync } from 'node:child_process';
 import path from 'path';
 import yaml from 'js-yaml';
 
@@ -588,9 +589,31 @@ async function main() {
   console.log('→ Share results and get help: https://discord.gg/8pRpHETxa4');
 }
 
+// Node's built-in fetch ignores HTTPS_PROXY unless the runtime is launched with
+// proxy support enabled (`--use-env-proxy` / `NODE_USE_ENV_PROXY=1`, Node >= 22.21).
+// When a proxy is configured but we weren't started with it, every provider fetch
+// hits a transparent intercept and 403s. Re-exec once with the flag so requests
+// route through the proxy. No-op when there's no proxy (normal machines), when it's
+// already enabled, or when the runtime is too old to support the flag.
+function ensureProxyAwareFetch() {
+  const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
+  if (!proxy) return;
+  if (process.env.NODE_USE_ENV_PROXY || process.env.__SCAN_PROXY_REEXEC) return;
+  if (process.execArgv.includes('--use-env-proxy')) return;
+  const [maj, min] = process.versions.node.split('.').map(Number);
+  if (!(maj > 22 || (maj === 22 && min >= 21))) return;
+  const res = spawnSync(
+    process.execPath,
+    ['--use-env-proxy', process.argv[1], ...process.argv.slice(2)],
+    { stdio: 'inherit', env: { ...process.env, __SCAN_PROXY_REEXEC: '1' } },
+  );
+  process.exit(res.status ?? 0);
+}
+
 // Only run main() when invoked directly (`node scan.mjs`), not when imported by tests.
 // `|| ''` guards the case where Node is invoked without a script arg (e.g. `node -e`).
 if (import.meta.url === pathToFileURL(process.argv[1] || '').href) {
+  ensureProxyAwareFetch();
   main().catch(err => {
     console.error('Fatal:', err.message);
     process.exit(1);
