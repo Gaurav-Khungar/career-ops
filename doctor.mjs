@@ -8,6 +8,7 @@
 import { existsSync, mkdirSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { resolveChromiumExecutable } from './browser-utils.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const projectRoot = __dirname;
@@ -43,9 +44,8 @@ function checkDependencies() {
 
 async function checkPlaywright() {
   try {
-    const { chromium } = await import('playwright');
-    const execPath = chromium.executablePath();
-    if (existsSync(execPath)) {
+    const execPath = await resolveChromiumExecutable();
+    if (execPath && existsSync(execPath)) {
       return { pass: true, label: 'Playwright chromium installed' };
     }
     return {

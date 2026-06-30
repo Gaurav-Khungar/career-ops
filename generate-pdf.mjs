@@ -15,6 +15,7 @@ import { resolve, dirname } from 'path';
 import { readFile } from 'fs/promises';
 import { mkdirSync } from 'fs';
 import { fileURLToPath } from 'url';
+import { resolveChromiumExecutable } from './browser-utils.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -133,7 +134,7 @@ async function generatePDF() {
     console.log(`🧹 ATS normalization: ${totalReplacements} replacements (${breakdown})`);
   }
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({ headless: true, executablePath: await resolveChromiumExecutable() });
   try {
     const page = await browser.newPage();
 

@@ -33,6 +33,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 
 import { makeHttpCtx } from './providers/_http.mjs';
+import { resolveChromiumExecutable } from './browser-utils.mjs';
 
 const parseYaml = yaml.load;
 
@@ -118,14 +119,24 @@ function resolveProvider(entry, providers, { skipIds = [] } = {}) {
 
 // ── Title filter ────────────────────────────────────────────────────
 
+// Word-boundary match so short acronym keywords (e.g. "QA") don't false-positive
+// on substrings of unrelated words (e.g. "Qatar"). \b sits between a word char
+// and a non-word char, so "qa" matches "QA Engineer" but not "Qatar".
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function keywordRegex(keyword) {
+  return new RegExp(`\\b${escapeRegex(keyword)}\\b`, 'i');
+}
+
 function buildTitleFilter(titleFilter) {
-  const positive = (titleFilter?.positive || []).map(k => k.toLowerCase());
-  const negative = (titleFilter?.negative || []).map(k => k.toLowerCase());
+  const positive = (titleFilter?.positive || []).map(keywordRegex);
+  const negative = (titleFilter?.negative || []).map(keywordRegex);
 
   return (title) => {
-    const lower = title.toLowerCase();
-    const hasPositive = positive.length === 0 || positive.some(k => lower.includes(k));
-    const hasNegative = negative.some(k => lower.includes(k));
+    const hasPositive = positive.length === 0 || positive.some(re => re.test(title));
+    const hasNegative = negative.some(re => re.test(title));
     return hasPositive && !hasNegative;
   };
 }
@@ -308,7 +319,8 @@ async function verifyOffers(offers) {
 
   let browser;
   try {
-    browser = await chromium.launch({ headless: true });
+    const executablePath = await resolveChromiumExecutable();
+    browser = await chromium.launch({ headless: true, executablePath });
   } catch (err) {
     throw new Error(
       `--verify could not launch Chromium (run "npx playwright install chromium" or re-run without --verify): ${err.message}`,
