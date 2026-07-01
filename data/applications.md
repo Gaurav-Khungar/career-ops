@@ -4,6 +4,7 @@ Your complete job search record. Format: Pipe-delimited (TSV-like).
 
 | # | Company | Role | Date Applied | Score | Status | Report | Notes |
 |---|---------|------|--------------|-------|--------|--------|-------|
+| 258 | 2026-07-01 | Kobie Marketing | Lead AI QA Engineer | 3.8/5 | Evaluated | ❌ |  | Loyalty SaaS (Bengaluru India Tech Hub); LLM-as-judge + agentic AI QA mandate = Archetype 1; ETL gap + mature company + domain mismatch; 6+ yrs gap; below apply threshold |
 | 256 | 2026-06-26 | InfraCloud Technologies | Senior Spark QA Engineer | 2.8/5 | Evaluated | ❌ |  | India remote listing (remoterocketship); Senior not Lead/Architect title; Apache Spark/big-data domain = stack mismatch vs Python/Selenium/Playwright/Cypress profile; WebFetch+Playwright both blocked by network policy so full JD unverified; below threshold |
 | 257 | 2026-06-26 | OpenObserve | QA Engineer | 2.8/5 | Evaluated | ❌ |  | India remote listing (remoterocketship); observability/logs platform (Rust-based backend) = niche stack vs profile; generic QA Engineer title not Lead/Architect; WebFetch+Playwright both blocked by network policy so full JD unverified; below threshold |
 | 255 | 2026-06-25 | nybl | Quality Assurance Manager | 3.0/5 | Evaluated | ❌ |  | Enterprise AI platform (data-to-intelligence/AI democratization); India remote listing; Manager-not-Lead title (PM-adjacent gap pattern, similar to #246 OnceHub) + WebFetch/Playwright both blocked by network policy so full JD unverified; below threshold pending direct verification |
