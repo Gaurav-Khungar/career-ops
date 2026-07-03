@@ -1,47 +1,172 @@
 # portals.yml — Job Portal & Company Configuration
 # Customize this file to define which companies to scan, what titles interest you,
 # and which job boards to search.
+#
+# Rebuilt 2026-07-03:
+# - Removed dead Greenhouse boards (Canva, EasyPost, Freshworks — 404 for weeks)
+# - Notion + Zapier moved to their real Ashby boards; Supabase enabled via Ashby
+# - Added 18 companies with a verified history of posting QA/SDET roles
+#   (slugs API-tested on 2026-07-03, job counts in comments)
+# - Title filter tuned to the real CV (Senior QA / SDET / Automation, manual OK)
+# - Added location_filter: India-remote focus (biggest historical waste was
+#   evaluating US-only roles)
 
 title_filter:
-  # Positive keywords: At least ONE must appear in job title (case-insensitive)
+  # Positive keywords: At least ONE must appear in job title (case-insensitive,
+  # word-boundary matched — "Test" does not match "Tester", so both are listed)
   positive:
     - QA
     - "Quality Assurance"
+    - "Quality Engineer"
+    - "Quality Analyst"
     - "Test"
-    - "Automation Engineer"
-    - "QA Engineer"
-    - "Test Automation"
+    - "Tester"
+    - "Testing"
     - "SDET"
-    - "Test Architecture"
-    - "QA Lead"
-    - "Test Lead"
-    - "QA Manager"
-    - "Test Manager"
+    - "Automation Engineer"
+    - "Test Automation"
 
   # Negative keywords: NONE should appear in job title
+  # NOTE: "Manual" removed 2026-07-03 — the real CV is strong in manual/exploratory
+  # testing; manual QA titles are now evaluated instead of silently dropped.
   negative:
     - "Junior"
     - "Fresher"
+    - "Intern"
     - "Internship"
     - ".NET"
     - "Java Developer"
     - "DevOps"
-    - "Manual"
+    - "Director"
+    - "Head of"
 
   # Seniority boost keywords: Give priority to these (but not required)
   seniority_boost:
     - "Senior"
     - "Staff"
-    - "Principal"
-    - "Architect"
     - "Lead"
-    - "Manager"
+
+# Location filter (scan.mjs semantics):
+# - empty/missing location on a job → passes (never penalize missing data)
+# - always_allow match → passes even if a blocked term also appears
+# - allow list non-empty → location must match at least one term
+# Rationale: historically the single biggest source of wasted evaluations was
+# US/EU-only postings. This keeps India + remote-friendly locations and
+# multi-location strings that include them.
+location_filter:
+  always_allow:
+    - india
+    - remote
+    - anywhere
+    - worldwide
+    - global
+    - work from home
+  allow:
+    - india
+    - remote
+    - anywhere
+    - worldwide
+    - global
+    - apac
+    - bengaluru
+    - bangalore
+    - hyderabad
+    - pune
+    - mumbai
+    - delhi
+    - gurgaon
+    - gurugram
+    - noida
+    - chennai
 
 tracked_companies:
-  # High-priority tech companies known for strong QA practices
-  # Format: List of companies with careers_url for Playwright navigation
+  # ── Tier 1: Companies with a VERIFIED history of QA/SDET roles matching
+  #    this profile (from applications.md history). Slugs API-tested 2026-07-03.
 
-  # Tier 1: Unicorns & Tech Giants
+  - name: Glean                     # Lead QA #053 4.5/5 came from here (137 jobs)
+    careers_url: https://www.glean.com/careers
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    enabled: true
+
+  - name: HighLevel                 # 15+ SDET/QA postings tracked (92 jobs)
+    careers_url: https://jobs.lever.co/gohighlevel
+    enabled: true
+
+  - name: Sprinto                   # SDET3 #071 4.2/5 (23 jobs)
+    careers_url: https://jobs.lever.co/Sprinto
+    enabled: true
+
+  - name: Teikametrics              # Test Architect #243 4.4/5 (6 jobs)
+    careers_url: https://jobs.lever.co/teikametrics
+    enabled: true
+
+  - name: Teramind                  # QA Lead #223 3.7/5 (20 jobs)
+    careers_url: https://jobs.lever.co/teramind
+    enabled: true
+
+  - name: DevRev                    # Sr Test Automation #247 (38 jobs)
+    careers_url: https://job-boards.greenhouse.io/devrev
+    api: https://boards-api.greenhouse.io/v1/boards/devrev/jobs
+    enabled: true
+
+  - name: Kaseya                    # Staff SDET #240 (107 jobs)
+    careers_url: https://job-boards.greenhouse.io/kaseya
+    api: https://boards-api.greenhouse.io/v1/boards/kaseya/jobs
+    enabled: true
+
+  - name: Motive                    # Senior SDET #099 (69 jobs)
+    careers_url: https://job-boards.greenhouse.io/gomotive
+    api: https://boards-api.greenhouse.io/v1/boards/gomotive/jobs
+    enabled: true
+
+  - name: Backbase                  # Senior QA #241, Hyderabad (45 jobs)
+    careers_url: https://job-boards.greenhouse.io/workatbackbase
+    api: https://boards-api.greenhouse.io/v1/boards/workatbackbase/jobs
+    enabled: true
+
+  - name: KnowBe4                   # QA Lead postings #032/#052/#201 (98 jobs)
+    careers_url: https://job-boards.greenhouse.io/knowbe4
+    api: https://boards-api.greenhouse.io/v1/boards/knowbe4/jobs
+    enabled: true
+
+  - name: Finite State              # QA Lead AI-first #084 (16 jobs)
+    careers_url: https://job-boards.greenhouse.io/finitestate
+    api: https://boards-api.greenhouse.io/v1/boards/finitestate/jobs
+    enabled: true
+
+  - name: Sporty Group              # SDET #242 (64 jobs)
+    careers_url: https://job-boards.greenhouse.io/sportygroup
+    api: https://boards-api.greenhouse.io/v1/boards/sportygroup/jobs
+    enabled: true
+
+  - name: Built In                  # Lead QA India-offshore #054 4.3/5 (1 job)
+    careers_url: https://job-boards.greenhouse.io/builtin
+    api: https://boards-api.greenhouse.io/v1/boards/builtin/jobs
+    enabled: true
+
+  - name: 3Pillar                   # QA Tech Lead #072 4.1/5 (100 jobs)
+    careers_url: https://jobs.lever.co/3pillarglobal
+    enabled: true
+
+  - name: CSC Generation            # Lead QA #244 4.0/5 (435 jobs)
+    careers_url: https://jobs.lever.co/cscgeneration-2
+    enabled: true
+
+  - name: Kraken                    # QA postings #098/#245 (59 jobs)
+    careers_url: https://jobs.ashbyhq.com/kraken.com
+    enabled: true
+
+  - name: Replicant                 # Lead Quality Engineer #250 (7 jobs)
+    careers_url: https://jobs.ashbyhq.com/Replicant
+    enabled: true
+
+  - name: Abridge                   # QA Lead #089 (54 jobs)
+    careers_url: https://jobs.ashbyhq.com/abridge
+    enabled: true
+
+  # ── Tier 2: Big tech / unicorns (working boards; rarely post QA titles but
+  #    zero-cost to keep watching)
+
   - name: Anthropic
     careers_url: https://www.anthropic.com/careers
     api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
@@ -62,29 +187,9 @@ tracked_companies:
     api: https://boards-api.greenhouse.io/v1/boards/figma/jobs
     enabled: true
 
-  - name: Canva
-    careers_url: https://www.canva.com/careers
-    api: https://boards-api.greenhouse.io/v1/boards/canva/jobs
-    enabled: true
-
-  # Tier 2: Scale-ups & Growth Companies
-  - name: Notion
-    careers_url: https://notion.so/careers
-    api: https://boards-api.greenhouse.io/v1/boards/notion/jobs
-    enabled: true
-
   - name: Airtable
     careers_url: https://airtable.com/careers
     api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
-    enabled: true
-
-  - name: Retool
-    careers_url: https://retool.com/careers
-    enabled: true
-
-  - name: Zapier
-    careers_url: https://zapier.com/jobs
-    api: https://boards-api.greenhouse.io/v1/boards/zapier/jobs
     enabled: true
 
   - name: Vercel
@@ -92,55 +197,71 @@ tracked_companies:
     api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
     enabled: true
 
-  - name: Supabase
-    careers_url: https://supabase.com/careers
+  - name: Notion                    # moved off dead Greenhouse board → Ashby (146 jobs)
+    careers_url: https://jobs.ashbyhq.com/notion
     enabled: true
 
-  - name: Plane
-    careers_url: https://plane.so/careers
+  - name: Zapier                    # moved off dead Greenhouse board → Ashby (16 jobs)
+    careers_url: https://jobs.ashbyhq.com/zapier
     enabled: true
 
-  # Tier 3: India-based / APAC Companies
+  - name: Supabase                  # was skipped (no provider) → Ashby (50 jobs)
+    careers_url: https://jobs.ashbyhq.com/supabase
+    enabled: true
+
+  # ── Disabled: no working public API found (tested 2026-07-03).
+  #    Greenhouse boards canva/easypost/freshworks/retool all 404;
+  #    ashby canva/easypost/razorpay all 404. Re-enable if a board is found.
+
+  - name: Canva
+    careers_url: https://www.canva.com/careers
+    enabled: false
+
   - name: EasyPost
     careers_url: https://www.easypost.com/careers
-    api: https://boards-api.greenhouse.io/v1/boards/easypost/jobs
-    enabled: true
-
-  - name: Razorpay
-    careers_url: https://razorpay.com/careers
-    enabled: true
+    enabled: false
 
   - name: Freshworks
     careers_url: https://www.freshworks.com/careers
-    api: https://boards-api.greenhouse.io/v1/boards/freshworks/jobs
-    enabled: true
+    enabled: false
+
+  - name: Retool
+    careers_url: https://retool.com/careers
+    enabled: false
+
+  - name: Razorpay
+    careers_url: https://razorpay.com/careers
+    enabled: false
 
   - name: ByteBeam
     careers_url: https://www.bytebeam.io/careers
-    enabled: true
+    enabled: false
+
+  - name: Plane
+    careers_url: https://plane.so/careers
+    enabled: false
 
 search_queries:
-  # Search queries for broad job board discovery
-  # Use these to find jobs you may not have tracked companies for yet
+  # Search queries for broad job board discovery (used by WebSearch fallback)
 
-  - name: QA Engineer remote scale-up
-    query: 'QA Engineer remote scale-up site:ashby.com OR site:lever.co OR site:greenhouse.io'
+  - name: Senior QA Engineer India remote
+    query: '"Senior QA Engineer" OR "QA Engineer" India remote SaaS site:jobs.lever.co OR site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
     enabled: true
 
-  - name: Test Automation Engineer remote
-    query: 'Test Automation Engineer remote India OR remote-first site:linkedin.com'
+  - name: QA Automation Cypress Playwright India
+    query: 'QA Automation Engineer Cypress OR Playwright India remote'
     enabled: true
 
-  - name: Senior QA
-    query: 'Senior QA site:we-are-hiring.com OR site:builtin.com'
+  - name: Mobile QA India remote
+    query: 'Mobile QA Engineer Android iOS India remote Maestro OR Appium'
     enabled: true
 
-  - name: QA Lead OR Test Architect
-    query: 'QA Lead OR Test Architect remote-first scale-up site:ashby.com OR site:lever.co'
+  - name: SDET India remote
+    query: 'SDET India remote site:jobs.lever.co OR site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
     enabled: true
 
-  - name: Testing strategy senior engineer
-    query: 'Testing strategy senior engineer remote OR India site:ashby.com OR site:greenhouse.io'
+  - name: CCaaS telephony CRM QA
+    query: 'QA Engineer CCaaS OR telephony OR "contact center" OR CRM integrations remote India'
     enabled: true
 
 scanner:

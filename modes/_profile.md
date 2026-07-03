@@ -1,170 +1,161 @@
 # _profile.md — Your Narrative, Archetypes & Evaluation Rules
 
 > This file customizes career-ops behavior for YOUR specific story, archetypes, and evaluation criteria. It overrides defaults in `_shared.md`. Never auto-updated — keep updating it as your career evolves.
+>
+> **Rebuilt 2026-07-03 from the real resume (Gaurav_Khungar_Resume_Senior_QA_Engineer.docx).** The previous version contained placeholder metrics that were never true (framework architecture, mentoring 5 engineers, CI/CD ownership). Never resurrect those claims.
 
 ---
 
 ## Your Story
 
 ### Who You Are (Headline)
-**Senior QA Engineer & Testing Architect** — 5.4+ years building scalable test automation frameworks and establishing quality culture across organizations. Specialized in designing testing strategies for high-velocity, microservices-based teams.
+**Senior QA Engineer** — 5+ years of product-focused QA across web, SaaS, and mobile. Deep domain expertise in cloud telephony/CCaaS and CRM integrations, with a growing automation practice (Cypress, Playwright, Maestro). Proven remote freelancer for international clients (Dubai, Tel Aviv).
 
 ### Your Superpowers
-1. **Test Automation Architecture** — Design frameworks that 10x team productivity (45% reduction in test time)
-2. **CI/CD Pipeline Design** — Build automated testing gates that catch critical bugs pre-production
-3. **Team Leadership** — Mentor QA engineers, establish quality standards, build high-performing teams
-4. **Strategic Thinking** — Translate business quality goals into scalable, maintainable testing strategies
-5. **Cross-Functional Influence** — Partner with engineers and product teams to shift-left testing
+1. **CCaaS / telephony domain depth** — IVR trees, ACD logic, agent states, call flows, WebSocket real-time events, webhook validation. 3 years at Ziwo. Very few QA candidates have this.
+2. **CRM integration testing at scale** — E2E integration testing with 8 platforms (Dynamics 365, Salesforce, Zoho, Zendesk, Freshdesk, HubSpot, Pipedrive, Odoo), across sandbox AND production
+3. **Mobile QA (Android/iOS)** — VoIP call handling, push notifications, background modes, connectivity stability; Maestro-driven UI automation
+4. **API & event-driven testing** — Postman, Swagger, REST, webhooks, WebSocket event validation
+5. **Ownership & self-direction** — sole QA at Datanitiv (complete QA process); trusted freelance QA for remote product teams
 
 ### The Problems You Solve
-- **For Engineers**: Testing that doesn't slow down deployment; confidence in code quality
-- **For Managers**: Visibility into quality metrics; reduced production defects; efficient test execution
-- **For Organizations**: Scaling QA culture; mentoring talent; building testing as core engineering competency
+- **For product teams**: releases that don't break — regression, sanity, and E2E coverage across web, mobile, and integrations
+- **For support/on-call**: fast production issue triage with root-cause collaboration and verified fixes
+- **For integration-heavy products**: confidence that CRM/third-party integrations actually work in production, not just in sandbox
 
-### Key Achievements (with Impact)
-- **45% test execution time reduction** — Designed Selenium + Cypress hybrid framework for 100+ daily test runs
-- **Mentored 5 QA engineers** — 3 promoted to senior roles; established quality standards adopted across organization
-- **99.5% pre-release bug detection** — Implemented CI/CD testing gates that catch 30+ critical bugs per sprint
-- **200+ API endpoints covered** — Designed comprehensive REST/GraphQL testing strategy with 95%+ coverage
-- **25% latency improvement** — Identified performance bottlenecks via JMeter load testing; informed infrastructure decisions
+### Key Achievements (truthful — from cv.md)
+- **Sole QA ownership** — managed the complete QA process alone at Datanitiv for 1.5 years
+- **8 CRM platforms integration-tested** — sandbox and production, including API syncs, click-to-call, caller ID mapping
+- **Maestro mobile automation** — introduced UI automation flows for Ziwo's Android/iOS telephony apps
+- **Telephony edge-case expertise** — exploratory testing for network drops, jitter, packet loss
+- **Playwright E2E suite** — built and maintains one for personal portfolio site (proof of hands-on automation skill)
 
 ---
 
 ## Your Archetypes (Target Roles)
 
-### Archetype 1: Senior QA Engineer / Test Architect ⭐ PRIMARY
-**Your North Star role.** Design testing strategies, lead technical direction, mentor teams.
+### Archetype 1: Senior QA Engineer / SDET ⭐ PRIMARY
+**Your bullseye.** Product-focused senior IC roles: manual + automation, E2E/regression/API testing, web + SaaS + mobile.
 
 **Scoring weight in evaluation:** 50%
 
 **Green flags:**
-- Opportunity to design/own testing strategy and architecture
-- Lead a team or mentor other QA engineers
-- Influence over tech stack and testing approach
-- Involvement in product/engineering decisions about quality
-- Room to grow into technical leadership (principal engineer, architect)
+- Web/SaaS/mobile product testing with E2E and regression focus
+- Cypress or Playwright in the stack (or willingness to adopt)
+- API/integration testing is a core part of the role
+- Telephony, communications, CRM, or integration-heavy products (domain match!)
+- Remote-first, async-friendly teams
 
 **Red flags:**
-- "QA is just execution" mentality
-- No voice in testing decisions or strategy
-- Legacy systems with minimal automation potential
-- Isolated QA team with no cross-functional influence
+- Hard requirement for framework architecture from scratch as day-1 expectation
+- Python or Java as mandatory primary language (real languages: JavaScript, PHP, C/C++)
+- Performance/load testing as a core responsibility (certificate-level exposure only)
 
 **Framing your experience for this role:**
-- Lead with framework design and architecture wins
-- Emphasize mentoring and team-building
-- Show strategic thinking about testing in microservices
-- Highlight CI/CD pipeline and quality gate contributions
-- Discuss how you shifted testing left and improved engineering velocity
+- Lead with domain depth (CCaaS, CRM integrations) and product breadth (web + mobile + API)
+- Emphasize production triage and E2E ownership
+- Show automation trajectory: Cypress certified → Playwright portfolio suite → Maestro mobile automation in production use
 
-**Success look:** Team expanding, architecture influence, mentoring opportunities, modern tech
+**Success look:** Senior IC scope, modern automation stack, integration-heavy product, remote
 
 ---
 
-### Archetype 2: QA Manager / Engineering Lead (SECONDARY)
-**Growth path alternative.** Lead teams, establish quality culture, manage stakeholders.
+### Archetype 2: QA Automation Engineer (SECONDARY)
+**Growth path.** Roles centered on building/extending automation with Cypress, Playwright, or Maestro.
 
 **Scoring weight in evaluation:** 30%
 
 **Green flags:**
-- Managing or growing a QA team
-- Setting quality standards and processes
-- Budget/hiring authority
-- Influence over testing roadmap
-- Cross-team collaboration and stakeholder alignment
+- JavaScript/TypeScript automation stack (Cypress/Playwright)
+- Mobile automation (Maestro, Appium-adjacent)
+- Existing framework to extend (vs. green-field architecture mandate)
+- Pairing/collaborative automation culture
 
 **Red flags:**
-- Pure people management with no technical input
-- Too far removed from hands-on testing
-- No influence over product/engineering decisions
+- "10 years building frameworks from scratch" requirements
+- Selenium/Java legacy-only stacks
+- Automation metrics theater (case counts over quality)
 
 **Framing your experience for this role:**
-- Highlight team growth and mentoring achievements
-- Show how you've built quality culture and standards
-- Discuss communication with stakeholders (engineers, product, leadership)
-- Emphasize process improvements and organizational impact
+- Lead with Maestro automation at Ziwo + Playwright portfolio suite + Cypress/Cucumber certifications
+- Be honest: automation is the growth edge on top of a strong manual/exploratory foundation
 
-**Success look:** Team growth, clear OKRs, stakeholder influence, quality metrics adoption
+**Success look:** Hands-on automation growth with mentorship available, JS-first stack
 
 ---
 
-### Archetype 3: Platform / Infrastructure QA (ADJACENT)
-**Growth option C.** DevOps/Infrastructure focus — testing CI/CD pipelines, deployment automation, SRE-like testing.
+### Archetype 3: QA Lead / Test Lead (ADJACENT — stretch)
+**Step-up option.** Hands-on lead roles at smaller companies that value domain depth and ownership over prior management scars.
 
 **Scoring weight in evaluation:** 15%
 
 **Green flags:**
-- Testing CI/CD pipelines, deployment automation
-- Infrastructure-level testing (Kubernetes, service mesh)
-- Performance/reliability testing at scale
-- SRE-adjacent work with focus on testing
-- Opportunity to influence platform reliability
+- "Player-coach" hands-on lead roles
+- Small teams (1-3 QAs) where the lead still tests daily
+- Sole-QA-building-the-function roles (matches Datanitiv experience)
 
 **Red flags:**
-- Unrelated to testing or quality
-- Too infrastructure-heavy, loses QA identity
+- "X+ years managing QA teams" as hard requirement — no formal leadership on CV; expect screen-out
+- Large-team management, budget/hiring authority expectations
+- Roles scored 4.0+ ONLY because of leadership language — that was the old (fabricated) profile's bullseye, not yours
 
 **Framing your experience for this role:**
-- Highlight CI/CD pipeline design and GitHub Actions / Jenkins work
-- Discuss load testing and performance testing expertise
-- Show infrastructure testing (Docker, Kubernetes if applicable)
-- Mention cloud platform testing (AWS/GCP)
+- Sole-QA ownership at Datanitiv is the leadership proxy: process ownership, prioritization, stakeholder communication
+- Status reporting to Team Lead and business executives at CXG
 
-**Success look:** Infrastructure ownership, reliability focus, automation depth
+**Success look:** Hands-on lead scope with room to grow into formal leadership
 
 ---
 
 ## Archetype Detection & Scoring Rules
 
-When evaluating offers, use these rules to detect which archetype(s) apply:
-
 | Archetype | JD Keywords | Detection |
 |-----------|-------------|-----------|
-| **Senior QA Engineer / Test Architect** | "architecture", "strategy", "design", "lead", "mentorship", "technical", "framework" | If JD emphasizes testing *architecture* and *strategy* |
-| **QA Manager / Engineering Lead** | "manager", "lead", "team", "culture", "planning", "mentorship", "stakeholder" | If JD emphasizes *people* and *process* |
-| **Platform / Infrastructure QA** | "platform", "CI/CD", "pipeline", "infrastructure", "SRE", "reliability", "deployment" | If JD emphasizes *infrastructure* and *automation* |
+| **Senior QA / SDET** | "QA Engineer", "SDET", "E2E", "regression", "API testing", "mobile", "manual + automation" | Senior IC product-testing scope |
+| **QA Automation** | "automation engineer", "Cypress", "Playwright", "Maestro", "test automation" | Automation-centric IC scope |
+| **QA Lead (stretch)** | "lead", "player-coach", "first QA hire", "own the QA process" | Hands-on lead, small/no team |
 
 **Scoring:** After identifying archetype, scale global score based on fit:
 - **Primary match**: No reduction; use full scoring logic
-- **Secondary match**: Reduce global score by 0.2 (e.g., 4.5 → 4.3)
-- **Adjacent match**: Reduce by 0.3 (e.g., 4.5 → 4.2)
-- **No match**: Reduce by 0.5 (e.g., 4.5 → 4.0)
+- **Secondary match**: Reduce global score by 0.2
+- **Adjacent match**: Reduce by 0.4 — and flag any "years of leadership" requirement explicitly as screen risk
+- **No match**: Reduce by 0.5+
+
+**Domain boosts (NEW — reflect real differentiators):**
+- Telephony/CCaaS/communications product → +0.3
+- CRM/integration-heavy product → +0.2
+- Mobile app testing in scope → +0.2
+- JavaScript automation stack (Cypress/Playwright) → +0.2
+- Python/Java mandatory as primary language → -0.3
+- "Architect a framework from scratch" as day-1 core mandate → -0.3
 
 ---
 
 ## CV Framing & Positioning Rules
 
-When generating PDFs and crafting application materials, use these rules:
+### For "Senior QA Engineer / SDET" Roles
+**Lead with:** Domain depth (CCaaS, CRM), E2E ownership, production triage, mobile coverage
+- Bullets: real scope ("8 CRM platforms", "IVR/ACD/WebSocket validation", "Android + iOS")
+- Never claim: framework architecture, team mentoring, CI/CD pipeline ownership
 
-### For "Senior QA Engineer / Test Architect" Roles
-**Lead with:** Framework design, architecture, mentoring, technical strategy
-- Emphasize: "Designed X framework", "Led Y team", "Architected Z strategy"
-- Bullets: Focus on impact (% improvements, team growth, tech influence)
-- Cover: Automation scale, mentoring achievements, technical depth
+### For "QA Automation Engineer" Roles
+**Lead with:** Maestro automation in production use, Playwright portfolio suite, Cypress + Cucumber certifications
+- Be transparent about the manual-to-automation trajectory; frame it as deliberate upskilling
 
-### For "QA Manager / Engineering Lead" Roles
-**Lead with:** Team growth, quality culture, process improvements, stakeholder impact
-- Emphasize: "Built X-person team", "Established Y quality standard", "Influenced Z decisions"
-- Bullets: People impact, process ownership, organizational reach
-- Cover: Team size, hiring, mentoring, cross-functional influence
-
-### For "Platform / Infrastructure QA" Roles
-**Lead with:** CI/CD pipeline design, infrastructure testing, reliability focus
-- Emphasize: "Architected X CI/CD", "Designed Y load testing", "Reduced Z latency"
-- Bullets: Infrastructure scale, pipeline improvements, reliability metrics
-- Cover: Tool expertise, deployment automation, cloud platform testing
+### For "QA Lead" (stretch) Roles
+**Lead with:** Sole-QA process ownership at Datanitiv, exec-facing status reporting at CXG
+- Do NOT inflate into "led a team of N" — there is no team-leadership claim available
 
 ---
 
 ## Proof Points & Metrics (from cv.md)
 
-When evaluating, reference these metrics:
-- **45% test execution time reduction** (measurable impact on velocity)
-- **Mentored 5 engineers** (team building & leadership)
-- **30+ critical bugs caught pre-release** (quality impact)
-- **200+ API endpoints tested** (scale of testing coverage)
-- **95%+ test coverage** (technical depth)
-- **3 mentees promoted to senior roles** (people development)
+- **5+ years** product-focused QA (Dec 2020 – present)
+- **8 CRM/ticketing platforms** integration-tested end-to-end (sandbox + production)
+- **3 years** CCaaS/cloud telephony testing (Ziwo)
+- **2 mobile apps** tested across Android/iOS (Ziwo Agent, CXG EV) incl. Maestro automation
+- **Sole QA** for the full product QA process (Datanitiv, 1.5 years)
+- **3 certifications**: Cucumber with JavaScript, Introduction to Cypress, Performance & Load Testing tools/techniques
 
 Always extract metrics from cv.md/article-digest.md; never invent.
 
@@ -173,109 +164,91 @@ Always extract metrics from cv.md/article-digest.md; never invent.
 ## Your Non-Negotiables & Preferences
 
 ### Must-Haves
-✅ **Remote capable** — Fully remote or hybrid with flexibility
-✅ **Testing influence** — Role where you can design/influence testing strategy
-✅ **Modern tech stack** — No legacy systems; cloud-native preferred
-✅ **Quality culture** — Company values testing and quality
-✅ **Growth opportunity** — Mentoring, technical leadership, or architectural influence
+✅ **Remote capable** — fully remote or hybrid with real flexibility (proven remote freelancer)
+✅ **Product-focused QA** — testing a product, not staff-augmentation body-shopping
+✅ **Modern tooling** — Cypress/Playwright-era automation, not legacy-only Selenium/Java
+✅ **India-eligible** — role must actually hire in India (biggest historical waste: US-only listings)
 
 ### Nice-to-Haves
-🌟 **Opportunity to mentor** — Growing QA team or engineering culture
-🌟 **Equity participation** — Stock options if startup/scale-up
-🌟 **Scale-up environment** — 100-5K people, Series C-F stage
-🌟 **Modern QA tools** — Cypress, Playwright, GitHub Actions, modern cloud platforms
+🌟 **Communications/CRM/integration-heavy products** — domain depth transfers directly
+🌟 **Mobile in scope** — differentiator most web QAs lack
+🌟 **Automation growth support** — mentorship or time to deepen Playwright/Cypress
+🌟 **Scale-up environment** — 100-5K people
 
 ### Deal-Breakers (Reduce Score by 0.5+)
-❌ **Testing is an afterthought** — No dedicated QA team or voice in decisions
-❌ **Legacy systems with no modernization** — Old tech, hard to automate
-❌ **No remote options** — Requires on-site presence without flexibility
-❌ **Isolated QA** — QA team has no cross-functional influence
-❌ **Very early-stage startup** — <$2M ARR, no testing budget/culture
+❌ **On-site mandatory** — no remote flexibility
+❌ **Python/Java-only hard requirement** — not on the real CV
+❌ **"Manager of managers" scope** — no leadership history to support it
+❌ **Very early-stage startup** — <20 people, no QA culture or budget
 
 ---
 
 ## Evaluation Adjustments
 
-Apply these rules when evaluating offers:
-
-### Scoring Adjustments by Dimension
-
 | Dimension | Boost (+) | Reduce (-) |
 |-----------|-----------|-----------|
-| **Match with CV** | "5+ years experience" → +0.2 | "3-4 years required" → -0.1 |
-| **North Star alignment** | "Design testing strategy" → +0.3 | "Execute tests only" → -0.4 |
-| **Comp** | ₹28L+, equity → +0.2 | <₹25L → -0.5 |
-| **Cultural signals** | Remote-first, mentoring, scale-up → +0.2 | Legacy stack, isolated QA → -0.3 |
-| **Red flags** | Modern tech, growth culture → +0.2 | "Testing is QA's job" → -0.5 |
-
-### Examples
-- **Offer A:** Senior QA Engineer at Stripe, ₹29L, remote, mentoring team → Base 4.5 + CV match +0.2 + archetype fit +0.3 + comp +0.1 = **4.8** ✅ Apply
-- **Offer B:** QA execution role at fintech, ₹24L, on-site → Base 3.5 - CV mismatch -0.2 - archetype fit -0.5 - comp -0.3 = **2.5** ❌ Skip
-- **Offer C:** QA Manager at scale-up, ₹27L, remote, 5-person team → Base 4.0 + team fit +0.2 + comp +0.1 + culture +0.2 = **4.5** ✅ Apply
+| **Match with CV** | "5+ years QA" → +0.2; manual+automation mix → +0.2 | "8+ years" / "framework architect" → -0.3 |
+| **Domain** | Telephony/CCaaS/CRM/integrations → +0.3 | Deep niche mismatch (chips, C++ infra, big data) → -0.3 |
+| **Stack** | Cypress/Playwright/JS → +0.2; Maestro/mobile → +0.2 | Python/Java mandatory → -0.3 |
+| **Comp** | ₹28L+ → +0.2 | <₹25L → -0.5 |
+| **Location** | India remote confirmed → +0.2 | India eligibility unconfirmed → -0.3; US/EU-only → SKIP |
+| **Level** | Senior IC / hands-on → +0.2 | "years managing teams" required → -0.4 |
 
 ---
 
-## Interview Prep: Your STAR Stories
+## Interview Prep: Your STAR Stories (real)
 
-Use these stories to answer interview questions. Format: **Situation → Task → Action → Result**
+### Story 1: "Tell me about complex integration testing you've done"
+**S:** Ziwo's CCaaS platform integrated with 8 CRM/ticketing systems (Dynamics 365, Salesforce, Zoho, Zendesk, Freshdesk, HubSpot, Pipedrive, Odoo)
+**T:** Validate every integration end-to-end — in sandbox AND production — without breaking live customer telephony
+**A:** Built E2E integration test passes covering API-based CRM syncs, contact lookups, ticket pop-ups, click-to-call flows, and caller ID mapping; validated data consistency between front-end, backend APIs, and CRM systems
+**R:** Reliable integrations across all 8 platforms; caught data-sync discrepancies before customers did
+*Key markers:* 8 platforms, sandbox+production, API-level validation
 
-### Story 1: "Tell me about a time you improved testing efficiency"
-**S:** Inherited legacy test suite running 6+ hours daily, bottlenecking releases  
-**T:** Needed to reduce execution time and enable faster deployments  
-**A:** Analyzed test patterns, redesigned framework using Selenium + Cypress hybrid approach, parallelized execution, implemented smart waits to reduce flakiness  
-**R:** **45% reduction in test time (6 hours → 45 min), enabled 100+ test runs/day vs. 10 previously, improved developer satisfaction**  
-*Key metrics:* 45%, 100+ runs/day, 6+ hour reduction
+### Story 2: "Describe testing something hard to test"
+**S:** Real-time telephony: WebSocket-driven agent presence, live call monitoring, dashboard syncing — where timing bugs hide
+**T:** Validate real-time event correctness under realistic network conditions
+**A:** Designed exploratory test scenarios for network drops, jitter, and packet loss; validated WebSocket events for calls, agents, and dashboards; verified webhook triggers for call events, dispositions, and recordings
+**R:** Real-time reliability issues surfaced pre-release instead of in customer war rooms
+*Key markers:* WebSocket validation, network edge cases, event-driven testing
 
-### Story 2: "Describe your experience mentoring or leading a team"
-**S:** Had opportunity to mentor 5 QA engineers as team grew  
-**T:** Wanted to establish quality standards, improve code practices, help engineers grow  
-**A:** Created testing best practices guide, implemented code reviews, conducted weekly automation workshops, identified high performers for promotion  
-**R:** **3 mentees promoted to senior roles within 2 years, team code quality improved 40%, became center of excellence for testing**  
-*Key metrics:* 3 promotions, 40% quality improvement, 5-person team
+### Story 3: "Tell me about owning quality end-to-end"
+**S:** Datanitiv had no QA function — I was the sole QA Engineer
+**T:** Stand up and run the complete QA process alone for workforce-management products
+**A:** Owned manual functional and E2E testing, API testing via Swagger, backend/frontend data validation, and defect lifecycle with the dev team
+**R:** A functioning QA process run single-handedly for 1.5 years across 3 product lines (OneView, Lifeworks, Capability)
+*Key markers:* sole QA, full ownership, API testing, 3 products
 
-### Story 3: "Tell me about a time you influenced product/engineering decisions"
-**S:** Noticed critical performance bottleneck through load testing  
-**T:** Needed to communicate findings to engineers and prioritize infrastructure improvements  
-**A:** Ran JMeter load tests, documented latency bottlenecks with root causes, presented findings with impact analysis to engineering leads  
-**R:** **Infrastructure team prioritized fixes, achieved 25% latency reduction (P95 from 500ms → 375ms), improved user experience**  
-*Key metrics:* 25% latency reduction, informed infrastructure roadmap
+### Story 4: "What's your automation experience?"
+**S:** Strong manual/exploratory foundation; deliberate move into automation
+**T:** Build automation skills that hold up in production use, not just tutorials
+**A:** Earned Cypress and Cucumber-with-JavaScript certifications; introduced Maestro-driven UI automation for Ziwo's Android/iOS apps; built a Playwright E2E suite for my portfolio site
+**R:** Mobile UI automation running against production apps + a public Playwright suite anyone can review
+*Key markers:* Maestro in production, Playwright portfolio, honest trajectory
 
-### Story 4: "Describe your most complex automation challenge"
-**S:** Needed to test 200+ API endpoints across microservices  
-**T:** Manual testing was unsustainable; had to design scalable API testing strategy  
-**A:** Built comprehensive REST/GraphQL test framework in Python using Requests, created data-driven tests for edge cases, integrated with CI/CD  
-**R:** **Achieved 95%+ test coverage for APIs, reduced manual API testing by 90%, caught 50+ bugs pre-release**  
-*Key metrics:* 200+ endpoints, 95% coverage, 90% reduction in manual testing
-
-### Story 5: "Tell me about an error you made and how you recovered"
-**S:** Initially built overly complex test framework with too many abstraction layers  
-**T:** Tests became hard to maintain; new engineers couldn't understand the architecture  
-**A:** Refactored to simpler page object model, documented patterns with examples, conducted team workshops  
-**R:** **Framework adoption improved, maintenance time reduced by 30%, team velocity improved**  
-*Key metrics:* 30% maintenance reduction, improved adoption
+### Story 5: "How do you handle production issues?"
+**S:** Poptin (SaaS) shipped fast; production issues needed same-day triage
+**T:** Triage, reproduce, root-cause, and verify fixes without blocking releases
+**A:** Collaborated with developers and support to isolate root causes, verified hotfixes, and ran targeted regression on every hotfix to prevent regressions
+**R:** Production incidents closed with verified fixes and no repeat regressions
+*Key markers:* triage speed, root-cause collaboration, hotfix regression discipline
 
 ---
 
 ## Negotiation Notes
 
-When you get an offer:
-
 ### Baseline Negotiation Strategy
-- **Target:** ₹28L + equity (if appropriate)
+- **Target:** ₹28L
 - **Floor:** ₹25L (absolute minimum)
-- **Priorities:** Role clarity > comp > title
+- **Reality check:** India market for Senior QA (manual+automation, 5 yrs) is ~₹12-20L; ₹25L+ requires either strong automation positioning, international remote (USD/AED/EUR contracts — already proven), or domain-premium roles (CCaaS/CRM). Freelance international contracts may beat local FTE offers.
+- **Priorities:** remote > comp > title
 
 ### Questions to Ask Before Accepting
-1. "Can you describe the testing strategy and how QA influences product decisions?"
-2. "How do you measure quality? What are current QA challenges?"
-3. "Is there a team I'll lead or mentor?"
-4. "What's the tech stack and CI/CD process?"
-5. "How is this role expected to grow in 12-24 months?"
-
-### Red Flag Questions (if you get vague answers, reconsider)
-- "Who owns quality/testing strategy?"
-- "How autonomous is the QA team?"
-- "What's the current test coverage and automation state?"
+1. "What's the split between manual and automation work in this role?"
+2. "What does the current automation stack look like, and who maintains it?"
+3. "How does QA get involved in requirements and design reviews?"
+4. "How are production issues triaged, and what's QA's role?"
+5. "What growth path exists toward automation-heavy or lead scope?"
 
 ---
 
@@ -284,8 +257,7 @@ When you get an offer:
 As you:
 - **Evaluate offers:** Note which archetypes applied and how accurate the scoring was
 - **Complete interviews:** Add new STAR stories to this file
-- **Learn:** Update proof points with new metrics
-- **Grow:** Revise target roles as your interests evolve
-- **Change priorities:** Update non-negotiables if your preferences shift
+- **Learn:** Update proof points with new metrics — but only real ones, sourced from cv.md
+- **Grow:** When you gain leadership or framework-architecture experience, promote Archetype 3 and update cv.md first
 
 This file is YOUR unique career compass. Let it evolve with you.

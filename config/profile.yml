@@ -3,47 +3,55 @@
 
 candidate:
   name: Gaurav Khungar
-  email: your-email@example.com
-  phone: "+91-your-phone"
+  email: gauravkhungar97@gmail.com
+  phone: "+91 9823235382"
   location:
     city: "India"
     timezone: "IST"
     country: "IN"
-  linkedin: "https://linkedin.com/in/gauravkhungar"
+  linkedin: "https://linkedin.com/in/gaurav-khungar"
   github: "https://github.com/gauravkhungar"
-  portfolio: "https://gauravkhungar.dev"  # Optional
+  portfolio: "https://gauravkhungar.netlify.app"
 
 target_roles:
   primary:
-    - name: "Senior QA Engineer / Test Architect"
+    - name: "Senior QA Engineer / SDET"
       level: "Senior"
       fit: "primary"  # primary, secondary, or adjacent
-      description: "Design testing strategies, lead QA teams, build automation frameworks"
-      keywords: ["QA", "Test Automation", "Testing Strategy", "QA Lead", "Test Architect"]
+      description: "Product-focused QA for web, SaaS, and mobile — manual + automation (Cypress, Playwright, Maestro), API/integration testing"
+      keywords: ["QA Engineer", "Senior QA", "SDET", "Quality Engineer", "Software Tester", "QA Analyst"]
 
   secondary:
-    - name: "QA Manager / Engineering Lead"
-      level: "Senior"
+    - name: "QA Automation Engineer"
+      level: "Mid-Senior"
       fit: "secondary"
-      description: "Lead QA teams, establish quality culture, mentor engineers"
-      keywords: ["QA Manager", "QA Lead", "Engineering Manager", "Test Lead"]
+      description: "Automation-focused roles — Cypress/Playwright E2E, Maestro mobile automation, API automation"
+      keywords: ["QA Automation", "Test Automation", "Automation Engineer", "Mobile QA"]
+
+  adjacent:
+    - name: "QA Lead (step-up)"
+      level: "Lead"
+      fit: "adjacent"
+      description: "Stretch target — hands-on lead roles that value domain depth over prior management experience. No formal leadership on CV; expect screen risk on 'X years leading teams' requirements"
+      keywords: ["QA Lead", "Test Lead"]
 
 narrative:
-  headline: "Senior QA Engineer — Test Automation Architect & Quality Strategy Leader"
+  headline: "Senior QA Engineer — Web, SaaS & Mobile | CCaaS, Telephony & CRM Integration Testing"
 
   superpowers:
-    - "Building scalable test automation frameworks that reduce testing time by 40%+"
-    - "Designing CI/CD pipelines that catch bugs before production (99.5% pre-release detection)"
-    - "Mentoring QA teams and establishing quality culture across organizations"
-    - "Translating complex testing requirements into maintainable, modular automation code"
-    - "Architecting testing strategies for high-velocity, microservices-based teams"
+    - "Deep CCaaS/cloud telephony domain expertise: IVR flows, ACD logic, call routing, WebSocket real-time events, webhook validation"
+    - "CRM integration testing across 8 platforms (Dynamics 365, Salesforce, Zoho, Zendesk, Freshdesk, HubSpot, Pipedrive, Odoo) in sandbox AND production"
+    - "Mobile testing depth (Android/iOS): VoIP call handling, push notifications, background modes, Maestro UI automation"
+    - "API and event-driven testing: Postman, Swagger, REST, webhooks, WebSocket event validation"
+    - "Exploratory testing of hard edge cases: network drops, jitter, packet loss in real-time telephony"
 
   proof_points:
-    - "Reduced test suite execution time from 6+ hours to 45 minutes through intelligent automation (45% improvement)"
-    - "Mentored team of 5 QA engineers; 3 promoted to senior roles"
-    - "Implemented CI/CD testing gates in GitHub Actions/Jenkins, catching 30+ critical bugs pre-production"
-    - "Designed API testing strategy covering 200+ endpoints with 95%+ test coverage"
-    - "Built in-house test automation framework used by 10+ engineers across 3 teams"
+    - "Sole QA Engineer at Datanitiv — owned the complete QA process end-to-end for 1.5 years"
+    - "3 years of CCaaS/telephony testing at Ziwo: IVR trees, ACD queues, agent states, live call monitoring, call masking/recording/transfers/conferencing"
+    - "End-to-end integration testing with 8 CRM/ticketing platforms across sandbox and production environments"
+    - "Introduced Maestro-driven UI automation for Ziwo's Android/iOS cloud telephony apps"
+    - "Built a personal portfolio website with its own Playwright E2E suite (gauravkhungar.netlify.app)"
+    - "5+ years of product-focused QA, fully remote for international clients (Dubai, Tel Aviv)"
 
 compensation:
   target_range:
@@ -91,9 +99,9 @@ preferences:
       - "Diverse, inclusive teams"
 
   technical_preferences:
-    stack: "Modern (Python, JavaScript, Go); cloud-native (AWS/GCP/Azure)"
-    ci_cd: "GitHub Actions, GitLab CI, or Jenkins"
-    databases: "PostgreSQL, MongoDB preferred"
+    stack: "JavaScript-first (Cypress, Playwright, Maestro); comfortable with PHP, C/C++; MySQL"
+    ci_cd: "Azure DevOps exposure; eager to grow GitHub Actions/GitLab CI skills"
+    databases: "MySQL"
 
   non_negotiables:
     - "Remote capability (fully remote or hybrid with flexibility)"
