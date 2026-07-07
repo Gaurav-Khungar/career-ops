@@ -367,6 +367,9 @@ Add job URLs here and then run `/career-ops pipeline` to batch-evaluate them.
 - [x] https://jobs.lever.co/paytm/c3b0b23b-7e6c-4d93-95de-c6c20fadf212 | Paytm | Senior QA Engineer - Mobile Apps/SDET (SKIP: on-site)
 - [x] https://jobs.lever.co/jobgether/e133f812-210d-43d1-ac1a-8321f7c1eb55 | Jobgether | QA Automation Lead (SKIP: US-only)
 
+- [x] https://jobs.lever.co/gohighlevel/6abd14a6-7a91-4c98-9938-72701818d08e | HighLevel | Lead Software Development Engineer in Test - Mobile | #271 2.8/5 — 7+ yrs req (gap); Dart/Java/Kotlin mandatory (stack mismatch); framework-architect day-1 mandate; Lead = stretch archetype; below threshold
+- [x] https://jobs.lever.co/gohighlevel/0d699a36-71b9-4db4-aeab-1a81ecc2ca15 | HighLevel | Software Development Engineer in Test III - Mobile Apps | #272 3.5/5 — India confirmed; 4+ yrs met; Maestro/mobile depth helps; Dart/Java/Kotlin req + framework-architect mandate; below threshold
+
 ## Processed
 (Moves here after evaluation with results)
 
